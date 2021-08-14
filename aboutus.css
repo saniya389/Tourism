@@ -1,0 +1,50 @@
+#about
+	{
+		padding-top: 50px;
+		padding-bottom: 50px;
+		color: #555;
+	}
+	#about .btn{
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+	.about-content{
+		padding-top: 20px;
+			}
+			#about content{
+				text-align: right;
+			}
+#slider{
+	width: 100%;
+
+}
+#team{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: black;
+}
+h1{
+	text-align: center;
+	color: #555 !important;
+	padding-bottom: 10px;
+
+}#clients{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: black;
+}
+h1{
+	text-align: center;
+	color: #555 !important;
+	padding-bottom: 10px;
+
+}	#sevices{
+	
+		background-size: cover;
+		background-position: center;
+		color: #efefef !important;
+		background-attachment: fixed;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+

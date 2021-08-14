@@ -1,0 +1,45 @@
+h3{
+	font-family: Garamond;
+}
+h1{
+	font-family:"Times New Roman";
+}
+h2{
+	font-family: sans-serif;
+	font-style: normal;
+	font-size: 50px;
+}
+
+.container{
+	max-width: 1200px;
+	margin: auto;
+	
+}
+.gallery{
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 280px;
+	display: block;
+	border-radius: 8px;
+}
+.gallery img{
+	width: 280px;
+	height: 200px;
+	border-radius: 8px;
+}
+.desc{
+	padding: 15px;
+	text-align: center;
+
+}
+.container .gallery .box{
+	overflow: hidden;
+}
+.container .gallery .box img{
+	transition: transform 1s;
+	animation-play-state: slide-out-up;
+}
+.container .gallery:hover .box img{
+	transform: scale(1.2);
+}
