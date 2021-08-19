@@ -43,9 +43,10 @@ h2{
 .container .gallery:hover .box img{
 	transform: scale(1.2);
 }
-.navbar {
+#navigation {
 	background-color: transparent;
 	background: transparent;
 	border-color: transparent;
-	background: rgba(0,0,0,0.5);
+	background: rgba(0,0,0,0.7);
+	border-radius: 6px;
 }
