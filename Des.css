@@ -30,7 +30,7 @@ h2{
 .desc{
 	padding: 15px;
 	text-align: center;
-
+	font-weight: bold;
 }
 .container .gallery .box{
 	overflow: hidden;
