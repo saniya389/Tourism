@@ -17,16 +17,15 @@ h2{
 }
 .gallery{
 	margin: 5px;
-	border: 1px solid #ccc;
+	border: 1px solid #FFFFFF;
 	float: left;
 	width: 280px;
 	display: block;
-	border-radius: 8px;
+	
 }
 .gallery img{
 	width: 280px;
 	height: 200px;
-	border-radius: 8px;
 }
 .desc{
 	padding: 15px;
@@ -35,10 +34,12 @@ h2{
 }
 .container .gallery .box{
 	overflow: hidden;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .container .gallery .box img{
 	transition: transform 1s;
 	animation-play-state: slide-out-up;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .container .gallery:hover .box img{
 	transform: scale(1.2);
