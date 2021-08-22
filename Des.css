@@ -47,9 +47,10 @@ h2{
 	transform: scale(1.2);
 }
 .carousel-caption {
-	margin-top:300px;
-	margin-bottom:200px;
+	margin-top: 300px;
+	margin-bottom: 200px;
 	font-family: cursive;
 	font-size: 30px;
+	color: black;
 	
 }
