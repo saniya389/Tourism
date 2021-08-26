@@ -214,10 +214,7 @@ transition: all 250ms ease-in-out 0s;
 
 }
 
-.thumb-content ,.text{
-	font-size: 20px;
-	font-family: Times New Roman;
-}
+
 
 label{
 	font-family: Times New Roman;
