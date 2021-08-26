@@ -53,47 +53,41 @@ h2{
 	font-size: 50px;
 	
 }
-footer .main-footer{  
-	padding: 20px 0;
-	background: #252525;
-}
-footer ul{  
-	padding-left: 0;
-	list-style: none;
-}
+footer .main-footer{  padding: 20px 0;  background: #252525;}
+footer ul{  padding-left: 0;  list-style: none;}
 
 
 .footer-copyright { 
 	background: #222;
 	padding: 5px 0;
 }
-.footer-copyright .logo {    
+.footer-copyright .logo { 
 	display: inherit;
 }
-.footer-copyright nav {    
-	float: right;
+.footer-copyright nav {
+	float: right; 
 	margin-top: 5px;
 }
-.footer-copyright nav ul {  
+.footer-copyright nav ul { 
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
-.footer-copyright nav ul li {
-	border-left: 1px solid #505050; 
+.footer-copyright nav ul li { 
+	border-left: 1px solid #505050;
 	display: inline-block; 
 	line-height: 12px; 
-	margin: 0; 
+	margin: 0;
 	padding: 0 8px;
 }
-.footer-copyright nav ul li a{
+.footer-copyright nav ul li a{ 
 	color: #969696;
 }
 .footer-copyright nav ul li:first-child {
-	border: medium none;  
+	border: medium none; 
 	padding-left: 0;
 }
-.footer-copyright p {
+.footer-copyright p { 
 	color: #969696;
 	margin: 2px 0 0;
 }
@@ -129,6 +123,10 @@ footer.light .footer-copyright{
 .footer- .logo { 
    display: inline-block;
 }
+
+/*==================== 
+  Widgets 
+====================== */
 .widget{ 
  padding: 20px;  
  margin-bottom: 40px;
@@ -217,5 +215,12 @@ box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 -ms-transition: all 250ms ease-in-out 0s;
 -o-transition: all 250ms ease-in-out 0s;
 transition: all 250ms ease-in-out 0s;
+
 }
+
+.thumb-content ,.text{
+	font-size: 20px;
+	font-family: Times New Roman;
+}
+
 
