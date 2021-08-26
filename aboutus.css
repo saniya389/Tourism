@@ -47,20 +47,52 @@ h1 {
 html {
 	scroll-behavior: smooth;
 }
-footer .main-footer{  padding: 20px 0;  background: #252525;}
-footer ul{  padding-left: 0;  list-style: none;}
+footer .main-footer{  
+	padding: 20px 0;
+	background: #252525;
+}
+footer ul{  
+	padding-left: 0;
+	list-style: none;
+}
 
-/* Copy Right Footer */
-.footer-copyright { background: #222; padding: 5px 0;}
-.footer-copyright .logo {    display: inherit;}
-.footer-copyright nav {    float: right;    margin-top: 5px;}
-.footer-copyright nav ul {  list-style: none; margin: 0;  padding: 0;}
-.footer-copyright nav ul li { border-left: 1px solid #505050; display: inline-block;  line-height: 12px;  margin: 0;  padding: 0 8px;}
-.footer-copyright nav ul li a{  color: #969696;}
-.footer-copyright nav ul li:first-child { border: medium none;  padding-left: 0;}
-.footer-copyright p { color: #969696; margin: 2px 0 0;}
 
-/* Footer Top */
+.footer-copyright { 
+	background: #222;
+	padding: 5px 0;
+}
+.footer-copyright .logo {    
+	display: inherit;
+}
+.footer-copyright nav {    
+	float: right;
+	margin-top: 5px;
+}
+.footer-copyright nav ul {  
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.footer-copyright nav ul li {
+	border-left: 1px solid #505050; 
+	display: inline-block; 
+	line-height: 12px; 
+	margin: 0; 
+	padding: 0 8px;
+}
+.footer-copyright nav ul li a{
+	color: #969696;
+}
+.footer-copyright nav ul li:first-child {
+	border: medium none;  
+	padding-left: 0;
+}
+.footer-copyright p {
+	color: #969696;
+	margin: 2px 0 0;
+}
+
+
 .footer-top{  
 	background: #252525;  
 	padding-bottom: 30px;
@@ -68,7 +100,7 @@ footer ul{  padding-left: 0;  list-style: none;}
 	border-bottom: 3px solid #222;
 }
 
-/* Footer transparent */
+
 footer.transparent .footer-top, footer.transparent .main-footer{  
 	background: transparent;
 }
@@ -76,7 +108,7 @@ footer.transparent .footer-copyright{
 	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3) ;
 }
 
-/* Footer light */
+
 footer.light .footer-top{ 
 	background: #f9f9f9;
 }
@@ -87,14 +119,10 @@ footer.light .footer-copyright{
 	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3) ;
 }
 
-/* Footer 4 */
+
 .footer- .logo { 
    display: inline-block;
 }
-
-/*==================== 
-  Widgets 
-====================== */
 .widget{ 
  padding: 20px;  
  margin-bottom: 40px;
