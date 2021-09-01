@@ -26,3 +26,6 @@ h2{
 	right: -9999px;
 	margin:  0 auto;
 }
+html{
+       scroll-behavior: smooth;
+}
