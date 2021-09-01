@@ -308,8 +308,8 @@ transition: all 250ms ease-in-out 0s;
 }
 
 #navbar a.active {
-  background-color: #04AA6D;
-  color: white;
+  background-color: #ddd;
+  color: black;
 }
 
 .content {
