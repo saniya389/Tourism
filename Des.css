@@ -33,7 +33,13 @@
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 }
-
+* {
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+}
 h3{
 	font-family: Garamond;
 }
