@@ -93,7 +93,8 @@ font-family: cursive;
 <div id="Home">
 <p id="i1">Tourism Paradise</p><img src="preview.jpg" height="65px" width="65px">
 
-<nav class="navbar navbar-inverse">
+<div id="navbar">
+<nav class="navbar">
 	<a class="navbar-brand"></a>
     <div class="container-fluid">
     <div class="navbar-header">
@@ -103,9 +104,9 @@ font-family: cursive;
       <li class="active">
       <a href="#"><span class="glyphicon glyphicon-home"></span> Home</a>
       </li>
-       <li><a href="#DESTINATION">DESTINATION</a></li>
-	  <li><a href="#WHAT WE DO">WHAT WE DO</a></li>
-	  <li><a href="#CONTACT US">CONTACT US</a></li>
+      <li><a href="#DESTINATION">DESTINATION</a></li>
+	  	<li><a href="#WHAT WE DO">WHAT WE DO</a></li>
+	  	<li><a href="#CONTACT US">CONTACT US</a></li>
     </ul>
     <form class="navbar-form navbar-right">
     <div class="input-group">
@@ -119,6 +120,7 @@ font-family: cursive;
     </form>
     </div>
     </nav>
+  </div>
 
 <div class="container-fluid">
    
@@ -822,9 +824,24 @@ font-family: cursive;
 </form>
 </footer>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
 </body>
  </html>
