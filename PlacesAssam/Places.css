@@ -62,6 +62,7 @@ button::after {
   text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #800000;
   clip-path: var(--slice-0);
 }
+
 button:hover::after {
   animation: 1s glitch;
   animation-timing-function: steps(2, end);
