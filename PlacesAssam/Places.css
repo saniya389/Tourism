@@ -33,12 +33,12 @@ button, button::after {
   height: 30px;
   font-size: 36px;
   font-family: 'Bebas Neue', cursive;
-  background: linear-gradient(45deg, transparent 5%, #FF013C 5%);
+  background: linear-gradient(45deg, transparent 5%, #FF7F50 5%);
   border: 0;
-  color: #fff;
+  color: #FFFFFF;
   letter-spacing: 3px;
   line-height: 30px;
-  box-shadow: 6px 0px 0px #00E6F6;
+  box-shadow: 6px 0px 0px #800080;
   outline: transparent;
   position: relative;
 }
@@ -58,11 +58,10 @@ button::after {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
-  text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
+  background: linear-gradient(45deg, transparent 3%, #FFFF00 3%, #00E6F6 5%, #FF0000 5%);
+  text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #800000;
   clip-path: var(--slice-0);
 }
-
 button:hover::after {
   animation: 1s glitch;
   animation-timing-function: steps(2, end);
