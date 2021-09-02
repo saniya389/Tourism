@@ -1,8 +1,10 @@
 h3{
-	padding-bottom: 170px;
 	font-family: Times New Roman;
 	font-weight: bold;
 	font-size: 70px;
+	text-align: center;
+	text-shadow: 2px 2px orangered;
+	color: orange;
 }
 p{
 font-family: Times New Roman;
