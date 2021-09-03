@@ -18,16 +18,18 @@
 <div id="Home">
 <p id="i1">Tourism Paradise</p><img src="preview.jpg" height="65px" width="65px">
 
-<div id="navbar">
+<div class="topnav" id="navbar">
 <nav>
-	<a class="navbar-brand"></a>
     <div class="container-fluid">
     <ul class="nav navbar-nav">
       <a class="active" href="#"><span class="glyphicon glyphicon-home"></span> Home
       </a>
-      <li><a href="#DESTINATION">DESTINATION</a></li>
-	  	<li><a href="#WHAT WE DO">WHAT WE DO</a></li>
-	  	<li><a href="#CONTACT US">CONTACT US</a></li>
+      <a href="#DESTINATION">DESTINATION</a>
+	  	<a href="#WHAT WE DO">WHAT WE DO</a>
+	  	<a href="#CONTACT US">CONTACT US</a>
+	  	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    	<i class="fa fa-bars"></i>
+  		</a>
     </ul>
     <form class="navbar-form navbar-right">
     <div class="input-group">
@@ -86,7 +88,6 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-</div>
 </div>
 <hr>
 <!-- Destinations -->
@@ -664,7 +665,6 @@
 <br>
 <br>
 
-<meta charset="utf-8">
 <div id="CONTACT US">
   <footer id="footer" class="footer-1">
 <div class="main-footer widgets-dark typo-light">
@@ -675,14 +675,14 @@
 <div class="widget subscribe no-box">
 <h5 class="widget-title">Address<span></span></h5>
 <p>Tourism Paradise</p>
-<span class="glyphicon glyphicon-map-marker fa-lg"></span>
+<span class="glyphicon glyphicon-map-marker fa-md"></span>
             <span class="text">Shivajinagar, Pune</span>
              <div class="phone">
-            <i class="fa fa-phone fa-lg"></i>
+            <i class="fa fa-phone fa-md"></i>
             <span class="text">+91-765432100</span>
         </div>
         <div class="email">
-            <i class="fa fa-envelope fa-lg"></i>
+            <i class="fa fa-envelope fa-md"></i>
             <span class="text">tourismparadise@gmail.com.</span>
         </div>
          <br>
@@ -729,13 +729,13 @@
 	<div class="container-fluid">
 	  
 		<label for="name">Your name :</label>
-		<input type="text" class="form-control" id="name" placeholder="Name" required style="height:25px">
+		<input type="text" class="form-control" id="name" placeholder="Name" required>
 		<label for="email">Your email :</label>
-		<input type="email" class="form-control" id="email" placeholder="Email" required style="height:25px">
+		<input type="email" class="form-control" id="email" placeholder="Email" required>
 		<label for="sub">Subject :</label>
-		<input type="text" class="form-control" id="sub" placeholder="Subject" style="height: 25px;">
+		<input type="text" class="form-control" id="sub" placeholder="Subject">
 		<label for="msg">Your Message :</label>
-		<input type="text" class="form-control" id="msg" placeholder="Your Message" style="height:25px">
+		<input type="text" class="form-control" id="msg" placeholder="Your Message" required>
 
 		<br>
 		<button type="submit" class="btn btn-success" style="background-color:#ff8d1e;">Submit</button>
@@ -744,10 +744,20 @@
 	</div>         	
 </form>
 </footer>
-
+</div>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
   AOS.init();
+</script>
+<script>
+function myFunction() {
+  var x = document.getElementById("navbar");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
 </script>
 <script>
 window.onscroll = function() {myFunction()};
@@ -763,5 +773,6 @@ function myFunction() {
   }
 }
 </script>
+
 </body>
- </html>
+</html>
