@@ -521,7 +521,7 @@ transition: all 250ms ease-in-out 0s;
 	}
 
 	.desc{
-		padding: 9px;
+		padding: 7px;
 		font-weight: bold;
 		font-size: 14px;
 	}
@@ -530,7 +530,7 @@ transition: all 250ms ease-in-out 0s;
 		margin-top: 300px;
 		margin-bottom: 200px;
 		font-family: cursive;
-		font-size: 25px;
+		font-size: 23px;
 	}
 
 	/*==================== 
