@@ -63,7 +63,7 @@ font-family: cursive;
 .bar-1 {width: 15%; height: 18px; background-color: #f44336;}
 
 /* Responsive layout - make the columns stack on top of each other instead of next to each other */
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   .side, .middle {
     width: 100%;
   }
@@ -346,7 +346,7 @@ transition: all 250ms ease-in-out 0s;
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 991px){
 	#i1{
 		float:left;
 		padding-top: 0.5%;
@@ -492,7 +492,7 @@ transition: all 250ms ease-in-out 0s;
 	}
 }
 
-@media screen and (min-width: 480px){
+@media screen and (min-width: 480px) and (max-width: 767px){
 	#i1{
 		float:left;
 		padding-top: 0.5%;
@@ -606,4 +606,17 @@ transition: all 250ms ease-in-out 0s;
     display: block;
     text-align: left;
   }
+  #navbar {
+    z-index: 9999;
+	}
+
+	.sticky {
+  	position: fixed;
+  	top: 0;
+  	width: 100%;
+	}
+
+	.sticky + .content {
+  	padding-top: 60px;
+	}
 }
