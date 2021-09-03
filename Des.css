@@ -346,7 +346,7 @@ transition: all 250ms ease-in-out 0s;
 }
 
 
-@media(min-width: 768px) and (max-width: 991px){
+@media screen and (max-width: 768px){
 	#i1{
 		float:left;
 		padding-top: 0.5%;
@@ -476,7 +476,7 @@ transition: all 250ms ease-in-out 0s;
     display: block;
     text-align: left;
   }
-
+  
   #navbar {
     z-index: 9999;
 	}
