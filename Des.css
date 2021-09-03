@@ -492,7 +492,7 @@ transition: all 250ms ease-in-out 0s;
 	}
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px){
+@media screen and (min-width: 400px) and (max-width: 767px){
 	#i1{
 		float:left;
 		padding-top: 0.5%;
