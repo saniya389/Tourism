@@ -387,12 +387,6 @@ transition: all 250ms ease-in-out 0s;
   	text-align: center;
 	}
 
-	h2{
-		font-family: sans-serif;
-		font-style: normal;
-		font-size: 50px;
-	}
-
 	.container{
 		max-width: 1200px;
 		margin: auto;
@@ -422,42 +416,6 @@ transition: all 250ms ease-in-out 0s;
 		margin-bottom: 200px;
 		font-family: cursive;
 		font-size: 30px;
-	}
-
-	.footer-copyright { 
-		background: #222;
-		padding: 5px 0;
-	}
-
-	.footer-copyright nav {
-		float: right; 
-		margin-top: 5px;
-	}
-
-	.footer-copyright nav ul { 
-		list-style: none;
-		margin: 0;
-		padding: 0;
-	}
-
-	.footer-copyright nav ul li { 
-		border-left: 1px solid #505050;
-		display: inline-block; 
-		line-height: 12px; 
-		margin: 0;
-		padding: 0 8px;
-	}
-
-	.footer-copyright p { 
-		color: #969696;
-		margin: 2px 0 0;
-	}
-
-	.footer-top{  
-		background: #252525;  
-		padding-bottom: 30px;
-		margin-bottom: 30px; 
-		border-bottom: 3px solid #222;
 	}
 
 	/*==================== 
@@ -507,11 +465,6 @@ transition: all 250ms ease-in-out 0s;
 		font-size: 17px;
 	}
 
-	.topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
