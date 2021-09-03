@@ -476,4 +476,18 @@ transition: all 250ms ease-in-out 0s;
     display: block;
     text-align: left;
   }
+  
+  #navbar {
+    z-index: 9999;
+	}
+
+	.sticky {
+  	position: fixed;
+  	top: 0;
+  	width: 100%;
+	}
+
+	.sticky + .content {
+  	padding-top: 60px;
+	}
 }
