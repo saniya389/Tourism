@@ -331,21 +331,6 @@ transition: all 250ms ease-in-out 0s;
   padding: 16px;
 }
 
-#navbar {
-    z-index: 9999;
-	}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 60px;
-}
-
-
 @media screen and (max-width: 768px){
 	#i1{
 		float:left;
@@ -465,12 +450,19 @@ transition: all 250ms ease-in-out 0s;
 		font-size: 17px;
 	}
 
+	.topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
+
   .topnav.responsive a {
     float: none;
     display: block;
@@ -583,12 +575,14 @@ transition: all 250ms ease-in-out 0s;
     float: right;
     display: block;
   }
+
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
+
   .topnav.responsive a {
     float: none;
     display: block;
