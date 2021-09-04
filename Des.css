@@ -835,7 +835,7 @@ transition: all 250ms ease-in-out 0s;
   }
 
 }
-@media(max-width: 319px) {
+@media(max-width: 319px){
 	#i1{
 		float:left;
 		padding-top: 0.5%;
