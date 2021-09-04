@@ -41,7 +41,11 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 transform: scale(1.2);
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-button, button::after {
+.prev{
+    font-size: 20px;'
+    font-family: 'Bebas Neue', cursive;
+}
+ button, button::after {
   width: 170px;
   height: 30px;
   font-size: 36px;
