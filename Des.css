@@ -9,6 +9,12 @@ font-family: cursive;
   box-sizing: border-box;
 }
 
+#para{
+	font-family: URW Gothic L;
+	text-align: center;
+	font-size: 30px;
+}
+
 .heading {
   font-size: 25px;
   margin-right: 25px;
@@ -289,6 +295,10 @@ transition: all 250ms ease-in-out 0s;
 		font-size: 30px;
 	}
 
+	#para{
+		font-size: 25px;
+	}
+
 	.heading {
   	font-size: 24px;
   	margin-right: 24px;
@@ -381,6 +391,10 @@ transition: all 250ms ease-in-out 0s;
 		font-size: 30px;
 	}
 
+	#para{
+		font-size: 25px;
+	}
+
 	.heading {
   	font-size: 22px;
   	margin-right: 22px;
@@ -471,6 +485,10 @@ transition: all 250ms ease-in-out 0s;
 		float:left;
 		padding-top: 0.5%;
 		font-size: 30px;
+	}
+
+	#para{
+		font-size: 23px;
 	}
 
 	.heading {
@@ -582,6 +600,10 @@ transition: all 250ms ease-in-out 0s;
 		font-size: 30px;
 	}
 
+	#para{
+		font-size: 21px;
+	}
+
 	.heading {
   	font-size: 19px;
   	margin-right: 19px;
@@ -688,6 +710,10 @@ transition: all 250ms ease-in-out 0s;
 		font-size: 30px;
 	}
 
+	#para{
+		font-size: 21px;
+	}
+
 	.heading {
   	font-size: 19px;
   	margin-right: 19px;
@@ -792,6 +818,10 @@ transition: all 250ms ease-in-out 0s;
 		float:left;
 		padding-top: 0.5%;
 		font-size: 30px;
+	}
+
+	#para{
+		font-size: 20px;
 	}
 
 	.heading {
