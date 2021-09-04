@@ -730,7 +730,112 @@ transition: all 250ms ease-in-out 0s;
 
 }
 
-@media(max-width: 479px) {
+@media(min-width: 320px) and (max-width: 479) {
+	#i1{
+		float:left;
+		padding-top: 0.5%;
+		font-size: 30px;
+	}
+
+	.heading {
+  	font-size: 19px;
+  	margin-right: 19px;
+	}
+
+	.rating {
+  	font-size: 25px;
+	}
+
+	.gallery{
+		margin: 2px;
+		border: 1px solid #FFFFFF;
+		float: left;
+		width: 190px;
+		display: block;
+	}
+
+	.gallery img{
+		width: 100%;
+		height: 130px;
+	}
+
+	.desc{
+		padding: 7px;
+		font-weight: bold;
+		font-size: 14px;
+	}
+
+	.carousel-caption {
+		margin-top: 300px;
+		margin-bottom: 200px;
+		font-family: cursive;
+		font-size: 20px;
+	}
+
+	/*==================== 
+  	Widgets 
+	====================== */
+	.widget{ 
+			padding: 20px;  
+  		margin-bottom: 25px;
+	}
+
+	.widget.no-box{ 
+		padding: 0; 
+	 	margin-bottom: 20px;
+	}
+
+	.widget.subscribe p{ 
+		 margin-bottom: 8px;
+	}
+
+	.widget-title {
+		margin-bottom: 8px;
+		font-size: 22px;
+	}
+
+	.widget-title span{
+		margin-top: 12px;
+		width: 25%;
+	}
+
+	.widget-title span::after{
+		top: -4px;
+		width: 25%;
+	}
+
+	.widget-title.text-center span,.widget-title.text-center span::after{
+		margin-left: 40px;
+		margin-right:60px;
+		left: 0;
+		right: 0;
+	}
+
+	.thumb-content ,.text{
+		font-size: 17px;
+	}
+
+	.topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+@media(max-width: 319px) {
 	#i1{
 		float:left;
 		padding-top: 0.5%;
