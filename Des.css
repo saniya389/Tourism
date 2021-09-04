@@ -332,7 +332,7 @@ transition: all 250ms ease-in-out 0s;
     z-index: 9999;
 	}
 
-@media screen and (min-width: 768px) and (max-width: 991px){
+@media screen and (max-width: 991px) and (min-width: 768px){
 	#i1{
 		float:left;
 		padding-top: 0.5%;
@@ -471,7 +471,7 @@ transition: all 250ms ease-in-out 0s;
  
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px){
+@media screen and (max-width: 767px) and (min-width: 480px){
 	#i1{
 		float:left;
 		padding-top: 0.5%;
