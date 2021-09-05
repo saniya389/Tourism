@@ -846,6 +846,16 @@ transition: all 250ms ease-in-out 0s;
 		height: 130px;
 	}
 
+	.gallery img .ri{
+		position: absolute;
+		max-width: 80%;
+		top: 10%;
+		left: 10%;
+	}
+
+	.gallery img.ri { 
+		max-height: 90%;
+	}
 	.desc{
 		padding: 7px;
 		font-weight: bold;
