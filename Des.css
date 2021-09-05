@@ -729,8 +729,13 @@ transition: all 250ms ease-in-out 0s;
 		float: left;
 		width: 190px;
 		display: block;
-		margin-left: auto;
-		margin-left: auto;
+	}
+
+	.parent {
+  	height: 100%;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
 	}
 
 	.gallery img{
@@ -840,9 +845,13 @@ transition: all 250ms ease-in-out 0s;
 		border: 1px solid #FFFFFF;
 		float: left;
 		width: 190px;
-		display: block;
-		margin-left: auto;
-		margin-left: auto;
+	}
+
+	.parent {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 	}
 
 	.gallery img{
