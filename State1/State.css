@@ -24,7 +24,7 @@ border: 1px solid #ffffff;
 float: left;
 width: 280px;
 }
-.grid-item {
+.box{
 display: flex;
 align-items: center;
 justify-content: center;
@@ -157,7 +157,7 @@ p{
     margin: 33px;
     width: 250px;
 }
-.grid-item {
+.box{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -186,7 +186,7 @@ p{
     margin: 30px;
     width: 240px;
 }
-.grid-item {
+.box{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -215,7 +215,7 @@ p{
     margin: 30px;
     width: 240px;
 }
-.grid-item {
+.box{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -243,7 +243,7 @@ p{
     margin: 28px;
     width: 220px;
 }
-.grid-item {
+.box{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -271,7 +271,7 @@ p{
     margin: 25px;
     width: 200px;
 }
-.grid-item {
+.box{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -299,7 +299,7 @@ p{
     margin: 25px;
     width: 180px;
 }
-.grid-item {
+.box{
     display: flex;
     align-items: center;
     justify-content: center;
