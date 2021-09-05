@@ -23,8 +23,9 @@ margin: 35px;
 border: 1px solid #ffffff;
 float: left;
 width: 280px;
+display: block;
 }
-.box{
+.grid-item {
 display: flex;
 align-items: center;
 justify-content: center;
@@ -157,11 +158,6 @@ p{
     margin: 33px;
     width: 250px;
 }
-.box{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .gallery img{
     width: 100%;
     height: 170px;
@@ -185,11 +181,6 @@ p{
 .gallery{
     margin: 30px;
     width: 240px;
-}
-.box{
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .gallery img{
     width: 100%;
@@ -215,14 +206,10 @@ p{
     margin: 30px;
     width: 240px;
 }
-.box{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .gallery img{
     width: 100%;
     height: 160px;
+
 }
 .desc{
     padding: 13px;
@@ -243,14 +230,10 @@ p{
     margin: 28px;
     width: 220px;
 }
-.box{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .gallery img{
     width: 100%;
     height: 140px;
+
 }
 .desc{
     padding: 12px;
@@ -271,14 +254,10 @@ p{
     margin: 25px;
     width: 200px;
 }
-.box{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .gallery img{
     width: 100%;
     height: 120px;
+
 }
 .desc{
     padding: 10px;
@@ -299,14 +278,10 @@ p{
     margin: 25px;
     width: 180px;
 }
-.box{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .gallery img{
     width: 100%;
     height: 100px;
+
 }
 .desc{
     padding: 10px;
