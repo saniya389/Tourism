@@ -1,11 +1,8 @@
-h1 {
-  font-size: 70px;
-  text-align: center;
-  color: darkblue
+h1{
+text-align: center;
 }
 h2{
-  font-size: 25px;
-  text-align: center;
+text-align: center;
 }
 p{
 font-family: Arial;
@@ -23,34 +20,38 @@ display: block;
 .gallery img{
 width: 100%;
 height: 200px;
+
+
 }
 .desc{
-padding: 15px;
+padding: 20px;
 text-align: center;
 font-weight: bold;
 }
 .container .gallery .box{
 overflow: hidden;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 .container .gallery .box img{
 transition: transform 1s;
 animation-play-state: slide-out-up;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 .container .gallery:hover .box img{
 transform: scale(1.2);
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .prev{
-    font-size: 20px;'
-    font-family: 'Times New Roman', cursive;
+    font-size: 20px;
 }
- button, button::after {
+
+button, button::after {
   width: 170px;
   height: 30px;
   font-size: 36px;
-  font-family: 'Times New Roman', cursive;
+  font-family: 'Bebas Neue', cursive;
   background: linear-gradient(45deg, transparent 5%, #FFFF00 5%);
   border: 0;
   color: #FFFFFF;
@@ -69,7 +70,7 @@ button::after {
   --slice-4: inset(40% -6px 43% 0);
   --slice-5: inset(80% -6px 5% 0);
   
-  content: 'Previous';
+  content: 'AVAILABLE NOW';
   display: block;
   position: absolute;
   top: 0;
@@ -131,148 +132,4 @@ button:hover::after {
     clip-path: var(--slice-1);
     transform: translate(0);
   }
-}
-
-@media(min-width: 992px){
-h1 {
-  font-size: 68px;
-}
-h2{
-  font-size: 25px;
-}
-p{
-    font-size: 20px;
-}
-.gallery{
-    margin: 33px;
-    width: 250px;
-}
-.gallery img{
-    width: 100%;
-    height: 170px;
-
-}
-.desc{
-    padding: 14px;
-}
-}
-
-@media(min-width: 768px) and (max-width: 991px){
-h1 {
-  font-size: 65px;
-}
-h2{
-  font-size: 22px;
-}
-p{
-    font-size: 17px;
-}
-.gallery{
-    margin: 30px;
-    width: 240px;
-}
-.gallery img{
-    width: 100%;
-    height: 160px;
-
-}
-.desc{
-    padding: 13px;
-}
-}
-
-@media(min-width: 575px) and (max-width: 767px){
-h1 {
-  font-size: 65px;
-}
-h2{
-  font-size: 22px;
-}
-p{
-    font-size: 17px;
-}
-.gallery{
-    margin: 30px;
-    width: 240px;
-}
-.gallery img{
-    width: 100%;
-    height: 160px;
-
-}
-.desc{
-    padding: 13px;
-}
-}
-
-@media(min-width: 480px) and (max-width: 574px){
-h1 {
-  font-size: 60px;
-}
-h2{
-  font-size: 20px;
-}
-p{
-    font-size: 15px;
-}
-.gallery{
-    margin: 28px;
-    width: 220px;
-}
-.gallery img{
-    width: 100%;
-    height: 140px;
-
-}
-.desc{
-    padding: 12px;
-}
-}
-
-@media(min-width: 320px) and (max-width: 479px){
-h1 {
-  font-size: 58px;
-}
-h2{
-  font-size: 18px;
-}
-p{
-    font-size: 15px;
-}
-.gallery{
-    margin: 25px;
-    width: 200px;
-}
-.gallery img{
-    width: 100%;
-    height: 120px;
-
-}
-.desc{
-    padding: 10px;
-}
-}
-
-@media(max-width: 319px){
-h1 {
-  font-size: 58px;
-}
-h2{
-  font-size: 18px;
-}
-p{
-    font-size: 15px;
-}
-.gallery{
-    margin: 25px;
-    width: 180px;
-}
-.gallery img{
-    width: 100%;
-    height: 100px;
-
-}
-.desc{
-    padding: 10px;
-}
 }
