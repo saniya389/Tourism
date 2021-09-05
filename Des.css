@@ -728,7 +728,7 @@ transition: all 250ms ease-in-out 0s;
 		border: 1px solid #FFFFFF;
 		float: left;
 		width: 190px;
-		display: block;
+		display: flex;
 	}
 
 	.gallery img{
@@ -838,7 +838,7 @@ transition: all 250ms ease-in-out 0s;
 		border: 1px solid #FFFFFF;
 		float: left;
 		width: 190px;
-		display: block;
+		display: flex;
 	}
 
 	.gallery img{
