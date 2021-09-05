@@ -729,6 +729,8 @@ transition: all 250ms ease-in-out 0s;
 		float: left;
 		width: 190px;
 		display: block;
+		margin-left: auto;
+		margin-left: auto;
 	}
 
 	.gallery img{
@@ -839,6 +841,8 @@ transition: all 250ms ease-in-out 0s;
 		float: left;
 		width: 190px;
 		display: block;
+		margin-left: auto;
+		margin-left: auto;
 	}
 
 	.gallery img{
