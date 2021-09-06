@@ -29,6 +29,8 @@ h1 {
 	color: #555 !important;
 	padding-bottom: 10px;
         font-family: Times New Roman;
+	background-color: lightgoldenrodyellow;
+	font-style: italic;
 }
 #clients {
 	padding-top: 50px;
