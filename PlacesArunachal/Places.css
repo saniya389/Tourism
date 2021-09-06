@@ -1,4 +1,4 @@
-h3{
+#names{
 	font-family: Times New Roman;
 	font-weight: bold;
 	font-size: 70px;
@@ -12,11 +12,13 @@ font-size: 25px;
 font-style: italic;
 font-weight: bold;
 }
-h2{
+#slogan{
 
 	text-align: center;
 	font-family: Times New Roman;
 	font-weight: bold;
+  	font-size: 30px;
+  	margin-top: 20px;
 }
 .prev{
 	padding-bottom: 15px;
