@@ -1,4 +1,4 @@
-h3{
+#names{
 	font-family: Times New Roman;
 	font-weight: bold;
 	font-size: 70px;
@@ -7,16 +7,17 @@ h3{
 	color: orange;
 }
 p{
-font-family: Times New Roman;
-font-size: 25px;
-font-style: italic;
-font-weight: bold;
+  font-family: Times New Roman;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
 }
-h2{
-
+#slogan{
 	text-align: center;
 	font-family: Times New Roman;
 	font-weight: bold;
+  font-size: 30px;
+  margin-top: 20px;
 }
 .prev{
 	padding-bottom: 15px;
@@ -113,4 +114,100 @@ button:hover::after {
     clip-path: var(--slice-1);
     transform: translate(0);
   }
+}
+
+@media(min-width: 992px){
+#names{
+  font-size: 67px;
+}
+p{
+  font-size: 25px;
+}
+#slogan{
+  font-size: 30px;
+}
+.prev{
+  padding-bottom: 15px;
+  padding-left: 60px;
+}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+#names{
+  font-size: 65px;
+}
+p{
+  font-size: 23px;
+}
+#slogan{
+  font-size: 27px;
+}
+.prev{
+  padding-bottom: 15px;
+  padding-left: 60px;
+}
+}
+
+@media(min-width: 575px) and (max-width: 767px){
+#names{
+  font-size: 63px;
+}
+p{
+  font-size: 20px;
+}
+#slogan{
+  font-size: 25px;
+}
+.prev{
+  padding-bottom: 15px;
+  padding-left: 60px;
+}
+}
+
+@media(min-width: 480px) and (max-width: 574px){
+#names{
+  font-size: 61px;
+}
+p{
+  font-size: 20px;
+}
+#slogan{
+  font-size: 25px;
+}
+.prev{
+  padding-bottom: 15px;
+  padding-left: 60px;
+}
+}
+
+@media(min-width: 320px) and (max-width: 479px){
+#names{
+  font-size: 59px;
+}
+p{
+  font-size: 17px;
+}
+#slogan{
+  font-size: 23px;
+}
+.prev{
+  padding-bottom: 15px;
+  padding-left: 60px;
+}
+}
+
+@media(max-width: 319px){
+#names{
+  font-size: 58px;
+}
+p{
+  font-size: 17px;
+}
+#slogan{
+  font-size: 23px;
+}
+.prev{
+  padding-bottom: 15px;
+  padding-left: 60px;
+}
 }
