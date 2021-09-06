@@ -25,9 +25,7 @@ p{
 }
 .caro{
 	width: 700px;
-	left: -9999px;
-	right: -9999px;
-	margin:  0 auto;
+  margin: 0 auto;
 }
 button, button::after {
   width: 170px;
@@ -130,6 +128,10 @@ p{
   padding-bottom: 15px;
   padding-left: 60px;
 }
+.caro{
+  width: 570px;
+  margin: 0 auto;
+}
 }
 
 @media(min-width: 768px) and (max-width: 991px){
@@ -145,6 +147,10 @@ p{
 .prev{
   padding-bottom: 15px;
   padding-left: 60px;
+}
+.caro{
+  width: 520px;
+  margin: 0 auto;
 }
 }
 
@@ -162,6 +168,10 @@ p{
   padding-bottom: 15px;
   padding-left: 60px;
 }
+.caro{
+  width: 490px;
+  margin: 0 auto;
+}
 }
 
 @media(min-width: 480px) and (max-width: 574px){
@@ -177,6 +187,10 @@ p{
 .prev{
   padding-bottom: 15px;
   padding-left: 60px;
+}
+.caro{
+  width: 480px;
+  margin: 0 auto;
 }
 }
 
@@ -194,6 +208,10 @@ p{
   padding-bottom: 15px;
   padding-left: 60px;
 }
+.caro{
+  width: 470px;
+  margin: 0 auto;
+}
 }
 
 @media(max-width: 319px){
@@ -209,5 +227,9 @@ p{
 .prev{
   padding-bottom: 15px;
   padding-left: 60px;
+}
+.caro{
+  width: 450px;
+  margin: 0 auto;
 }
 }
