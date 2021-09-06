@@ -22,7 +22,8 @@ p{
   border: 1px solid #ffffff;
   float: left;
   width: 280px;
-  display: block;
+  text-align: center;
+  display: inline-block;
 }
 .gallery img{
   width: 100%;
@@ -152,6 +153,7 @@ p{
 .gallery{
   margin: 35px;
   width: 280px;
+  text-align: center;
 }
 .gallery img{
   height: 200px;
@@ -172,8 +174,9 @@ p{
   font-size: 17px;
 }
 .gallery{
-  margin: 33px;
+  margin: 35px;
   width: 270px;
+  text-align: center;
 }
 .gallery img{
   height: 190px;
@@ -194,8 +197,9 @@ p{
   font-size: 16px;
 }
 .gallery{
-  margin: 31px;
+  margin: 35px;
   width: 250px;
+  text-align: center;
 }
 .gallery img{
   height: 170px;
@@ -216,8 +220,9 @@ p{
   font-size: 16px;
 }
 .gallery{
-  margin: 31px;
+  margin: 35px;
   width: 250px;
+  text-align: center;
 }
 .gallery img{
   height: 170px;
@@ -238,8 +243,9 @@ p{
   font-size: 15px;
 }
 .gallery{
-  margin: 29px;
+  margin: 35px;
   width: 230px;
+  text-align: center;
 }
 .gallery img{
   height: 160px;
@@ -260,8 +266,9 @@ p{
   font-size: 15px;
 }
 .gallery{
-  margin: 28px;
+  margin: 35px;
   width: 220px;
+  text-align: center;
 }
 .gallery img{
   height: 150px;
