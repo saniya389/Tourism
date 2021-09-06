@@ -1,7 +1,14 @@
-h1{
+#state{
+  font-weight: bold;
+  font-family:Times New Roman ;
+  font-size: 45px;
+  text-shadow: 2px 1px lightblue;
   text-align: center;
 }
-h2{
+#tag{
+  font-size: 25px;
+  color: darkblue;
+  text-decoration: underline;
   text-align: center;
 }
 p{
@@ -131,3 +138,136 @@ button:hover::after {
     transform: translate(0);
   }
 }
+
+@media(min-width: 992px){
+#state{
+  font-size: 40px;
+}
+#tag{
+  font-size: 23px;
+}
+p{
+  font-size: 18px;
+}
+.gallery{
+  margin: 35px;
+  width: 280px;
+}
+.gallery img{
+  height: 200px;
+}
+.desc{
+  padding: 20px;
+}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+#state{
+  font-size: 38px;
+}
+#tag{
+  font-size: 21px;
+}
+p{
+  font-size: 17px;
+}
+.gallery{
+  margin: 33px;
+  width: 270px;
+}
+.gallery img{
+  height: 190px;
+}
+.desc{
+  padding: 19px;
+}
+}
+
+@media(min-width: 575px) and (max-width: 767px){
+#state{
+  font-size: 36px;
+}
+#tag{
+  font-size: 20px;
+}
+p{
+  font-size: 16px;
+}
+.gallery{
+  margin: 31px;
+  width: 250px;
+}
+.gallery img{
+  height: 170px;
+}
+.desc{
+  padding: 18px;
+}
+}
+
+@media(min-width: 480px) and (max-width: 574px){
+#state{
+  font-size: 36px;
+}
+#tag{
+  font-size: 20px;
+}
+p{
+  font-size: 16px;
+}
+.gallery{
+  margin: 31px;
+  width: 250px;
+}
+.gallery img{
+  height: 170px;
+}
+.desc{
+  padding: 18px;
+}
+}
+
+@media(min-width: 320px) and (max-width: 479px){
+#state{
+  font-size: 34px;
+}
+#tag{
+  font-size: 18px;
+}
+p{
+  font-size: 15px;
+}
+.gallery{
+  margin: 29px;
+  width: 230px;
+}
+.gallery img{
+  height: 160px;
+}
+.desc{
+  padding: 16px;
+}
+}
+
+@media(max-width: 319px){
+#state{
+  font-size: 33px;
+}
+#tag{
+  font-size: 17px;
+}
+p{
+  font-size: 15px;
+}
+.gallery{
+  margin: 28px;
+  width: 220px;
+}
+.gallery img{
+  height: 150px;
+}
+.desc{
+  padding: 15px;
+}
+}
+
