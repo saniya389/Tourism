@@ -59,7 +59,6 @@ h1 {
 html {
 	scroll-behavior: smooth;
 }
-
 @media(min-width: 992px){
 #cont{
 	font-size: 20px;
