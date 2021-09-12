@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./Style/Des.css">
-    <link rel="stylesheet" type="text/css" href="homecss.css">
+    <link rel="stylesheet" type="text/css" href="./Style/homecss.css">
     <link rel="stylesheet" type="text/css" href="./Style/aboutus.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -18,27 +18,36 @@
   </head>
 <body>
   <div id="Home">
-  <header>
-    <nav>
-      <div class="logo1"> <h5><i>TOURISM PARADISE </i></h5></div>
-      <div class="topnav" id="navbar">
-        <div class="container-fluid">
-          <ul>
-              <a class="active text-reset me-4" href="#">HOME</a>
-              <a class="text-reset me-4" href="#DESTINATION">DESTINATION</a>
-              <a class="text-reset me-4" href="#ABOUT US">ABOUT US</a>
-              <a class="text-reset me-4" href="#CONTACT US">CONTACT US</a>
-              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-              </a>
-          </ul>   
-        </div>
-      </div>
-    </nav>
-
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">TOURISM PARADISE</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#HOME">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#DESTINATION">DESTINATION</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#ABOUT US">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#CONTACT US">CONTACT US</a>
+        </li>
+     </ul>
+  </div>
+ </div>
+</nav>
+    
+  
+<header>
   <main>
     <section>
-      <h2>Welcome to India</h2>
+      <h5>Welcome to India</h5>
       <h4>DO COME AND VISIT <span class="change_content"></span></h4>
       <a href="#" class="btnone">EXPLORE</a>
     </section>
@@ -60,7 +69,7 @@
     <div class="col d-flex justify-content-center">
       <div data-aos="fade-up d-flex justify-content-center">
       <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
-        <a href="Ass.html">
+        <a href="./State1/Ass.html">
         <img src="http://www.pentagonengineers.com/wp-content/uploads/2019/10/assam.jpg" class="card-img-top" width="100%" height="200px">
         <div class="card-body">
           <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Assam</p>
@@ -73,7 +82,7 @@
     <div class="col d-flex justify-content-center">
       <div data-aos="fade-up d-flex justify-content-center">
       <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
-        <a href="AP.html">
+        <a href="./State1/AP.html">
         <img src="https://www.traveldealsfinder.com/wp-content/uploads/AP-Tourism-Charminar.jpg" class="card-img-top" width="100%" height="200px">
         <div class="card-body">
           <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Andhra Pradesh</p>
@@ -86,7 +95,7 @@
     <div class="col d-flex justify-content-center">
        <div data-aos="fade-up d-flex justify-content-center">
       <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
-        <a href="ArP.html">
+        <a href="./State1/ArP.html">
         <img src="https://images.pexels.com/photos/8020071/pexels-photo-8020071.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" width="100%" height="200px">
         <div class="card-body">
           <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Arunachal Pradesh</p>
@@ -98,7 +107,7 @@
     <div class="col d-flex justify-content-center">
       <div data-aos="fade-up d-flex justify-content-center">
       <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
-        <a href="Bi.html">
+        <a href="./State1/Bi.html">
         <img src="https://www.tripsavvy.com/thmb/psufon4_2Y64Kt-RK3rYvrzbKfg=/4193x2359/smart/filters:no_upscale()/mahabodhi-temple-complex-98259687-5b579ce946e0fb00715444e6.jpg" class="card-img-top" width="100%" height="200px">
         <div class="card-body">
           <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Bihar</p>
@@ -110,7 +119,7 @@
     <div class="col d-flex justify-content-center">
       <div data-aos="fade-up d-flex justify-content-center">
       <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
-        <a href="Ch.html">
+        <a href="./State1/Ch.html">
         <img src="https://www.onhisowntrip.com/wp-content/uploads/2020/04/Chiktrakoot.png" width="100%" height="200px">
         <div class="card-body">
           <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Chhatisgarh</p>
@@ -122,7 +131,7 @@
     <div class="col d-flex justify-content-center">
       <div data-aos="fade-up d-flex justify-content-center">
       <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
-        <a href="De.html">
+        <a href="./State1/De.html">
         <img src="https://images.pexels.com/photos/789750/pexels-photo-789750.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" width="100%" height="200px">
         <div class="card-body">
           <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Delhi</p>
@@ -134,7 +143,7 @@
     <div class="col d-flex justify-content-center">
       <div data-aos="fade-up d-flex justify-content-center">
       <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
-        <a href="Goa.html">
+        <a href="./State1/Goa.html">
         <img src="http://pinkstravels.com/images/blog/goabanner.jpg" class="card-img-top" width="100%" height="200px">
         <div class="card-body">
           <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Goa</p>
@@ -146,7 +155,7 @@
     <div class="col d-flex justify-content-center">
       <div data-aos="fade-up d-flex justify-content-center">
       <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
-        <a href="Guj.html">
+        <a href="./State1/Guj.html">
         <img src="https://www.deccanherald.com/sites/dh/files/article_images/2020/01/15/file72kca7re047ujfvc2do-1579056602.jpg" class="card-img-top" width="100%" height="200px">
         <div class="card-body">
           <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Gujarat</p>
@@ -158,7 +167,7 @@
     <div class="col d-flex justify-content-center">
       <div data-aos="fade-up d-flex justify-content-center">
       <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
-        <a href="Har.html">
+        <a href="./State1/Har.html">
         <img src="https://prod-weddingz-partner-images.s3.amazonaws.com/photologue/images/7-indian-destination-wedding-locations-under-25-lakhs-to-host-your-wedding-at.jpg" class="card-img-top" width="100%" height="200px">
         <div class="card-body">
           <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Haryana</p>
@@ -170,7 +179,7 @@
     <div class="col d-flex justify-content-center">
       <div data-aos="fade-up d-flex justify-content-center">
       <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
-        <a href="Hp.html">
+        <a href="./State1/Hp.html">
         <img src="https://static.toiimg.com/photo/63264324/.jpg" class="card-img-top" width="100%" height="200px">
         <div class="card-body">
           <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Himachal Pradesh</p>
@@ -182,7 +191,7 @@
     <div class="col d-flex justify-content-center">
       <div data-aos="fade-up d-flex justify-content-center">
       <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
-        <a href="J&K.html">
+        <a href="./State1/J&K.html">
         <img src="https://images.pexels.com/photos/9106697/pexels-photo-9106697.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" width="100%" height="200px">
         <div class="card-body">
           <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Jammu and Kashmir</p>
@@ -194,7 +203,7 @@
     <div class="col d-flex justify-content-center">
       <div data-aos="fade-up d-flex justify-content-center">
       <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
-        <a href="JH.html">
+        <a href="./State1/JH.html">
         <img src="https://s3.india.com/travel/wp-content/uploads/2015/11/jharkhand.jpg" class="card-img-top" width="100%" height="200px">
         <div class="card-body">
           <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Jharkhand</p>
@@ -206,7 +215,7 @@
     <div class="col d-flex justify-content-center">
       <div data-aos="fade-up d-flex justify-content-center">
       <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
-        <a href="KARN.html">
+        <a href="./State1/KARN.html">
         <img src="https://blog.thomascook.in/wp-content/uploads/2017/09/Untitled-design-20-min.jpg" class="card-img-top" width="100%" height="200px">
         <div class="card-body">
           <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Karnataka</p>
@@ -218,7 +227,7 @@
     <div class="col d-flex justify-content-center">
       <div data-aos="fade-up d-flex justify-content-center">
       <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
-        <a href="Ker.html">
+        <a href="./State1/Ker.html">
         <img src="https://images.pexels.com/photos/6194591/pexels-photo-6194591.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="card-img-top" width="100%" height="200px">
         <div class="card-body">
           <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Kerala</p>
@@ -230,7 +239,7 @@
     <div class="col d-flex justify-content-center">
       <div data-aos="fade-up d-flex justify-content-center">
       <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
-        <a href="MP.html">
+        <a href="./State1/MP.html">
         <img src="https://www.tusktravel.com/blog/wp-content/uploads/2020/08/Gwalior.jpg" class="card-img-top" width="100%" height="200px">
         <div class="card-body">
           <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Madhya Pradesh</p>
@@ -242,7 +251,7 @@
     <div class="col d-flex justify-content-center">
       <div data-aos="fade-up d-flex justify-content-center">
       <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
-        <a href="Maharashtra.html">
+        <a href="./State1/Maharashtra.html">
         <img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/05/Gateway-Of-India_600-1-1280x720.jpg" class="card-img-top" width="100%" height="200px">
         <div class="card-body">
           <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Maharashtra</p>
@@ -254,7 +263,7 @@
     <div class="col d-flex justify-content-center">
       <div data-aos="fade-up d-flex justify-content-center">
       <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
-        <a href="Manipur.html">
+        <a href="./State1/Manipur.html">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-UX5lOaxJ_7sFa6n9B46XifqjNlIWOdmYgSIoczVpbtyqQ6oZMZMaqI1ZRMcQIjfwBTM&usqp=CAU" class="card-img-top" width="100%" height="200px">
         <div class="card-body">
           <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Manipur</p>
@@ -266,7 +275,7 @@
     <div class="col d-flex justify-content-center">
       <div data-aos="fade-up d-flex justify-content-center">
       <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
-        <a href="Megha.html">
+        <a href="./State1/Megha.html">
         <img src="https://travenjo.com/wp-content/uploads/2019/05/KrangSuri-Falls-Jowai.jpg" class="card-img-top" width="100%" height="200px">
         <div class="card-body">
           <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Meghalaya</p>
@@ -278,7 +287,7 @@
     <div class="col d-flex justify-content-center">
       <div data-aos="fade-up d-flex justify-content-center">
       <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
-        <a href="Mizo.html">
+        <a href="./State1/Mizo.html">
         <img src="https://www.incredibleindia.org/content/dam/incredible-india-v2/images/places/Mizoram/serlui-b-lake.jpg/_jcr_content/renditions/cq5dam.web.512.512.jpeg" class="card-img-top" width="100%" height="200px">
         <div class="card-body">
           <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Mizoram</p>
@@ -290,7 +299,7 @@
     <div class="col d-flex justify-content-center">
       <div data-aos="fade-up d-flex justify-content-center">
       <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
-        <a href="Naga.html">
+        <a href="./State1/Naga.html">
         <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2020/01/12-places-to-visit-in-nagaland-Cover_16th-Jan.jpg" class="card-img-top" width="100%" height="200px">
         <div class="card-body">
           <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Nagaland</p>
@@ -302,7 +311,7 @@
     <div class="col d-flex justify-content-center">
       <div data-aos="fade-up d-flex justify-content-center">
       <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
-        <a href="OR.html">
+        <a href="./State1/OR.html">
         <img src="https://www.india-tours.com/images/states-images/orissa.jpg" width="100%" height="200px">
         <div class="card-body">
           <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Orissa</p>
@@ -314,7 +323,7 @@
     <div class="col d-flex justify-content-center">
       <div data-aos="fade-up d-flex justify-content-center">
       <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
-        <a href="PJ.html">
+        <a href="./State1/PJ.html">
         <img src="https://k6u8v6y8.stackpathcdn.com/blog/wp-content/uploads/2015/04/golden-temple.jpg" class="card-img-top" width="100%" height="200px">
         <div class="card-body">
           <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Punjab</p>
@@ -326,7 +335,7 @@
     <div class="col d-flex justify-content-center">
       <div data-aos="fade-up d-flex justify-content-center">
       <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
-        <a href="RJ.html">
+        <a href="./State1/RJ.html">
         <img src="https://takeabreaktours.com/wp-content/uploads/2021/07/rajasthan.jpg" class="card-img-top" width="100%" height="200px">
         <div class="card-body">
           <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Rajasthan</p>
@@ -338,7 +347,7 @@
     <div class="col d-flex justify-content-center">
       <div data-aos="fade-up d-flex justify-content-center">
       <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
-        <a href="SK.html">
+        <a href="./State1/SK.html">
         <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1215/Yak-Tsangmo-Lake.jpg?crop=370:240&downsize=370:240" class="card-img-top" width="100%" height="200px">
         <div class="card-body">
           <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Sikkim</p>
@@ -350,7 +359,7 @@
     <div class="col d-flex justify-content-center">
       <div data-aos="fade-up d-flex justify-content-center">
       <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
-        <a href="TN.html">
+        <a href="./State1/TN.html">
         <img src="https://ak.jogurucdn.com/media/image/p25/place-2014-12-19-6-Devikanyakumaritemple8d7337842513180726e05edccbc5986e.jpg" class="card-img-top" width="100%" height="200px">
         <div class="card-body">
           <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Tamil Nadu</p>
@@ -362,7 +371,7 @@
     <div class="col d-flex justify-content-center">
       <div data-aos="fade-up d-flex justify-content-center">
       <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
-        <a href="TR.html">
+        <a href="./State1/TR.html">
         <img src="https://www.tourmyindia.com/socialimg/tripura-touris.jpg" class="card-img-top" width="100%" height="200px">
         <div class="card-body">
           <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Tripura</p>
@@ -374,7 +383,7 @@
     <div class="col d-flex justify-content-center">
       <div data-aos="fade-up d-flex justify-content-center">
       <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
-        <a href="UK.html">
+        <a href="./State1/UK.html">
         <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2020/01/Kedarnath-in-summer_17th-jan.jpg" class="card-img-top" width="100%" height="200px">
         <div class="card-body">
           <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Uttarakhand</p>
@@ -386,7 +395,7 @@
     <div class="col d-flex justify-content-center">
       <div data-aos="fade-up d-flex justify-content-center">
       <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
-        <a href="WB.html">
+        <a href="./State1/WB.html">
         <img src="https://assets.telegraphindia.com/telegraph/05648444-7dc7-4c71-9a25-656e98a6a0a0.jpg" class="card-img-top" width="100%" height="200px">
         <div class="card-body">
           <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">West Bengal</p>
@@ -398,7 +407,7 @@
     <div class="col d-flex justify-content-center">
       <div data-aos="fade-up d-flex justify-content-center">
       <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
-        <a href="UP.html">
+        <a href="./State1/UP.html">
         <img src="https://static.toiimg.com/photo/74304188.cms" class="card-img-top" width="100%" height="200px">
         <div class="card-body">
           <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Uttar Pradesh</p>
@@ -505,7 +514,7 @@
 <span class="fa fa-star"></span>
 </div>
 <p>4.1 average based on 254 reviews.</p>
-<hr style="border:3px solid #f1f1f1">
+<hr style="border:3px solid #f1f1f1;">
 
 </div>
 </div>
@@ -513,8 +522,8 @@
 <br>
 
 <div id="CONTACT US">
-  <footer class="text-center text-lg-start text-white" style="background-color: #1c2331">
-    <section class="d-flex justify-content-between p-4" style="background-color: #6351ce">
+  <footer class="text-center text-lg-start text-white" style="background-color: #1c2331;">
+    <section class="d-flex justify-content-between p-4" style="background-color: #6351ce;">
       <div class="me-5">
         <span>Get connected with us on social networks:</span>
       </div>
@@ -570,21 +579,15 @@
     <div class="container text-center text-md-start mt-5" style="font-weight: bold;">
         <div class="row mt-3">
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-            <!-- Content -->
             <h4 class="text-uppercase fw-bold">Tourism Paradise</h4>
-            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; height: 2px;"
-                />
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; height: 2px;"/>
             <p>
               We are here to help you search your tourist destination. We provide the topmost and most visited destinations. Over 1.5 billion people book travel per year, 70% of which is done online. Here you can check your travelling plan online.
             </p>
           </div>
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
             <h4 class="text-uppercase fw-bold">Quick Links</h4>
-            <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; height: 2px;"
-                />
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; height: 2px;"/>
             <p>
               <a href="#!">About Us</a>
             </p>
@@ -600,10 +603,7 @@
           </div>
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <h4 class="text-uppercase fw-bold">Contact</h4>
-            <hr
-                class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; height: 2px;"
-                />
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; height: 2px;"/>
             <p><i class="fa fa-home fa-lg" aria-hidden="true"></i> Shivajinagar, Pune</p>
             <p><i class="fa fa-envelope fa-lg" aria-hidden="true"></i> tourismparadise@gmail.com</p>
             <p><i class="fa fa-phone fa-lg" aria-hidden="true"></i> + 01 234 567 88</p>
@@ -611,18 +611,12 @@
           </div>
         </div>
       </div>
-    <div
-         class="text-center p-3"
-         style="background-color: rgba(0, 0, 0, 0.2); font-weight: bold;"
-         >
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2); font-weight: bold;">
       © 2021 Copyright:
-      <a href="#"
-         >TourismParadise</a
-        >
+      <a href="#">TourismParadise</a>
     </div>
   </footer>
 </div>
-
     <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
@@ -641,4 +635,8 @@
   }
   </script>
 </body>
+</html>
+}
+</script>
+  </body>
 </html>
