@@ -8,11 +8,14 @@ font-family: cursive;
 * {
   box-sizing: border-box;
 }
+html{
+scroll-behavior: smooth;
+}
 
 #para{
-	font-family: URW Gothic L;
-	text-align: center;
-	font-size: 30px;
+font-family: URW Gothic L;
+text-align: center;
+font-size: 30px;
 }
 
 .heading {
@@ -22,6 +25,57 @@ font-family: cursive;
 
 .rating {
   font-size: 35px;
+}
+
+.checked {
+  color: orange;
+}
+marquee{
+font-size: 50px;
+font-weight: 200;
+letter-spacing: 3px;
+text-shadow: 1px 1px 2px black;
+}
+
+h3{
+font-family: Garamond;
+}
+
+h1{
+font-family:"Times New Roman";
+margin: 30px 0 20px 0;
+font-size: 55px;
+font-weight: 700;
+text-shadow: 2px 1px 5px whitesmokei;
+}
+
+h2{
+font-family: sans-serif;
+font-style: normal;
+font-size: 50px;
+}
+.card-body .card-text{
+text-decoration: none;
+}
+
+.card img{
+width: 15rem;
+height: 200px;
+}
+
+.container .card {
+overflow: hidden;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container .card img{
+transition: transform 1s;
+animation-play-state: slide-out-up;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container .card:hover .box img{
+transform: scale(1.2);
 }
 
 .checked {
@@ -45,37 +99,7 @@ h2{
 	margin: auto;
 	
 }
-.gallery{
-	margin: 5px;
-	border: 1px solid #FFFFFF;
-	float: left;
-	width: 280px;
-	display: block;
-	
-}
-.gallery img{
-	width: 280px;
-	height: 200px;
-}
-.desc{
-	padding: 15px;
-	text-align: center;
-	text-decoration: none;
-	font-weight: bold;
-	font-size: 20px;
-}
-.container .gallery .box{
-	overflow: hidden;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.container .gallery .box img{
-	transition: transform 1s;
-	animation-play-state: slide-out-up;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.container .gallery:hover .box img{
-	transform: scale(1.2);
-}
+
 .carousel-caption {
 	margin-top: 300px;
 	margin-bottom: 200px;
@@ -288,6 +312,110 @@ transition: all 250ms ease-in-out 0s;
   padding: 16px;
 }
 
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+header{
+width: 100%;
+height: 100vh;
+background-image:url('https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+ nav{
+  width: 100%;
+  height: 15vh;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ nav .logo1{
+  width: 25%;
+  text-align: center;
+}
+nav .topnav{
+width: 40%;
+display: flex;
+justify-content: space-around;
+}
+nav .topnav a{
+text-decoration: none;
+color: white;
+font-weight: bold;
+}
+main{
+width: 100%;
+height: 85vh;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: white;
+}
+
+section h5{
+font-size: 35px;
+font-weight: 200;
+letter-spacing: 3px;
+text-shadow: 1px 1px 2px black;
+}
+section h4{
+margin: 30px 0 20px 0;
+font-size: 55px;
+font-weight: 700;
+text-shadow: 2px 1px 5px black;
+
+}
+
+section p{
+font-size: 25px;
+word-spacing: 2px;
+margin-bottom: 25px;
+text-shadow: 1px 1px 1px black;
+}
+
+section a{
+padding: 12px,30px;
+border-radius: 4px;
+outline: none;
+font-size: 20px;
+font-weight: 500;
+text-decoration: none;
+letter-spacing: 1px;
+}
+.btnone:hover{
+background: #00b894;
+color: #fff;
+}
+
+section .btnone{
+background: #00b894;
+color: #fff;
+}
+
+.change_content:after{
+content: '';
+animation: changetext 10s infinite linear;
+color:  #00b894;
+}
+
+@keyframes changetext{
+0%{content:"Delhi";}
+10%{content:"Mumbai";}
+20%{content:"Rajasthan";}
+30%{content:"Gujarat";}
+40%{content:"Maharashtra";}
+50%{content:"Jammu and Kashmir";}
+60%{content:"Assam";}
+70%{content:"Bihar";}
+}
+
 @media(min-width: 992px) {
 	#i1{
 		float:left;
@@ -306,30 +434,6 @@ transition: all 250ms ease-in-out 0s;
 
 	.rating {
   	font-size: 33px;
-	}
-
-	.container{
-		max-width: 1200px;
-		margin: auto;
-	}
-
-	.gallery{
-		margin: 4px;
-		border: 1px solid #FFFFFF;
-		float: left;
-		width: 245px;
-		display: block;
-	}
-
-	.gallery img{
-		width: 100%;
-		height: 175px;
-	}
-
-	.desc{
-		padding: 13px;
-		font-weight: bold;
-		font-size: 18px;
 	}
 
 	.carousel-caption {
@@ -404,30 +508,6 @@ transition: all 250ms ease-in-out 0s;
   	font-size: 30px;
 	}
 
-	.container{
-		max-width: 1200px;
-		margin: auto;
-	}
-
-	.gallery{
-		margin: 3px;
-		border: 1px solid #FFFFFF;
-		float: left;
-		width: 210px;
-		display: block;
-	}
-
-	.gallery img{
-		width: 100%;
-		height: 150px;
-	}
-
-	.desc{
-		padding: 10px;
-		font-weight: bold;
-		font-size: 16px;
-	}
-
 	.carousel-caption {
 		margin-top: 300px;
 		margin-bottom: 200px;
@@ -498,29 +578,6 @@ transition: all 250ms ease-in-out 0s;
 
 	.rating {
   	font-size: 27px;
-	}
-	.container{
-		max-width: 1200px;
-		margin: auto;
-	}
-
-	.gallery{
-		margin: 2.5px;
-		border: 1px solid #FFFFFF;
-		float: left;
-		width: 200px;
-		display: block;
-	}
-
-	.gallery img{
-		width: 100%;
-		height: 140px;
-	}
-
-	.desc{
-		padding: 8px;
-		font-weight: bold;
-		font-size: 15px;
 	}
 
 	.carousel-caption {
@@ -611,25 +668,6 @@ transition: all 250ms ease-in-out 0s;
 
 	.rating {
   	font-size: 25px;
-	}
-
-	.gallery{
-		margin: 2px;
-		border: 1px solid #FFFFFF;
-		float: left;
-		width: 190px;
-		display: block;
-	}
-
-	.gallery img{
-		width: 100%;
-		height: 130px;
-	}
-
-	.desc{
-		padding: 7px;
-		font-weight: bold;
-		font-size: 14px;
 	}
 
 	.carousel-caption {
@@ -723,25 +761,6 @@ transition: all 250ms ease-in-out 0s;
   	font-size: 25px;
 	}
 
-	.gallery{
-		margin: 2px;
-		border: 1px solid #FFFFFF;
-		float: left;
-		width: 190px;
-		display: block;
-	}
-
-	.gallery img{
-		width: 100%;
-		height: 130px;
-	}
-
-	.desc{
-		padding: 7px;
-		font-weight: bold;
-		font-size: 14px;
-	}
-
 	.carousel-caption {
 		margin-top: 300px;
 		margin-bottom: 200px;
@@ -831,32 +850,6 @@ transition: all 250ms ease-in-out 0s;
 
 	.rating {
   	font-size: 25px;
-	}
-
-	.gallery{
-		margin: 2px;
-		border: 1px solid #FFFFFF;
-		float: left;
-		width: 190px;
-		display: block;
-	}
-
-	.parent {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-	}
-
-	.gallery img{
-		width: 100%;
-		height: 130px;
-	}
-
-	.desc{
-		padding: 7px;
-		font-weight: bold;
-		font-size: 14px;
 	}
 
 	.carousel-caption {
