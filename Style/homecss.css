@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  width: 100%;
+  height: 100vh;
+  background-image:url('https://images.pexels.com/photos/247600/pexels-photo-247600.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+ .container-fluid{
+	
+   background-color: #1a2421;
+   color: white;
+   font-family: Times new roman;
+   font-weight: bold;
+   font-size: 18px;
+
+}
+.container-fluid .navbar-brand{
+	font-size: 20px;
+	color: #00b894;
+	font-weight: 700;
+	text-shadow: 2px 1px 5px #00b894;
+	font-size: 27px;
+	font-weight: bold;
+  font-style: italic;
+  font-family: Times new roman;
+
+}
+.navbar-nav{
+	  margin-left: 150px;
+    width: 100%;
+    color: #fff;
+}
+
+.container-fluid .navbar-nav .nav-item{
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+	color: #fff;
+}
+.container-fluid .navbar-nav .nav-link a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	display: flex;
+	background: #fff;
+}
+
+section h5{
+font-size: 35px;
+font-weight: 200;
+letter-spacing: 3px;
+text-shadow: 1px 1px 2px black;
+color: #00b894;
+}
+section h4{
+margin: 30px 0 20px 0;
+font-size: 55px;
+font-weight: 700;
+text-shadow: 2px 1px 5px black;
+color: #00b894;
+
+}
+
+section p{
+font-size: 25px;
+word-spacing: 2px;
+margin-bottom: 25px;
+text-shadow: 1px 1px 1px black;
+}
+
+section a{
+padding: 12px,30px;
+border-radius: 4px;
+outline: none;
+font-size: 20px;
+font-weight: 500;
+text-decoration: none;
+letter-spacing: 1px;
+}
+.btnone:hover{
+background: #00b894;
+color: #fff;
+}
+
+section .btnone{
+background: #00b894;
+color: #fff;
+}
+
+.change_content:after{
+content: '';
+animation: changetext 10s infinite linear;
+color:  #fff;
+}
+
+@keyframes changetext{
+0%{content:"Delhi";}
+10%{content:"Mumbai";}
+20%{content:"Rajasthan";}
+30%{content:"Gujarat";}
+40%{content:"Maharashtra";}
+50%{content:"Jammu and Kashmir";}
+60%{content:"Assam";}
+70%{content:"Bihar";}
+}
+
