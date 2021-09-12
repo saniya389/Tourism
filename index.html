@@ -1,591 +1,502 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Tourism</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="./Style/Des.css">
-	<link rel="stylesheet" type="text/css" href="./Style/aboutus.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
-  	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-</head>
-
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./Style/Des.css">
+    <link rel="stylesheet" type="text/css" href="homecss.css">
+    <link rel="stylesheet" type="text/css" href="./Style/aboutus.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Tourism</title>
+  </head>
 <body>
-<div id="Home">
-<p id="i1">Tourism Paradise</p><img src="preview.jpg" height="65px" width="65px">
-
-<div class="topnav" id="navbar">
-<nav>
-    <div class="container-fluid">
-    <ul class="nav navbar-nav">
-      <a class="active" href="#"><span class="glyphicon glyphicon-home"></span> Home
-      </a>
-      <a href="#DESTINATION">DESTINATION</a>
-	  	<a href="#WHAT WE DO">WHAT WE DO</a>
-	  	<a href="#CONTACT US">CONTACT US</a>
-	  	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    	<i class="fa fa-bars"></i>
-  		</a>
-    </ul>
-    <form class="navbar-form navbar-right">
-    <div class="input-group">
-    <input type="text" class="form-control" placeholder="Search">
-    <div class="input-group-btn">
-    <button class="btn btn-default" type="submit">
-    <span class="glyphicon glyphicon-search"></span>
-    </button>
-    </div>
-    </div>
-    </form>
-    </div>
+  <div id="Home">
+  <header>
+    <nav>
+      <div class="logo1"> <h5><i>TOURISM PARADISE </i></h5></div>
+      <div class="topnav" id="navbar">
+        <div class="container-fluid">
+          <ul>
+              <a class="active text-reset me-4" href="#">HOME</a>
+              <a class="text-reset me-4" href="#DESTINATION">DESTINATION</a>
+              <a class="text-reset me-4" href="#ABOUT US">ABOUT US</a>
+              <a class="text-reset me-4" href="#CONTACT US">CONTACT US</a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+          </ul>   
+        </div>
+      </div>
     </nav>
-  </div>
-   
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="https://images.pexels.com/photos/962464/pexels-photo-962464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" style="width:100%; height:600px;">
-      <div class="carousel-caption">
-      <p>Dream..Explore..Discover</p>
-      <h3>Time spent in India has an extraordinary effect on one.</h3>
-      </div>
-      </div>
+  <main>
+    <section>
+      <h2>Welcome to India</h2>
+      <h4>DO COME AND VISIT <span class="change_content"></span></h4>
+      <a href="#" class="btnone">EXPLORE</a>
+    </section>
+  </main>
+  </header>
+  <hr>
+ 
+  <!-- Destinations -->
+  <div id="DESTINATION">
+  <div data-aos="fade-up" data-aos-id="super-duper">
+    <h1 align="center">Destinations</h1>
+    <marquee behavior="alternate" direction="left" scrollamount="20" style="color:blue"><h2>Your Journey Starts Here!</h2></marquee>
+    <p id="para" align="center">Planning a surprise vacation for your family any time soon? Well, these best family holiday destinations in India should surely be on top of your list! Do not believe us? Scroll down to know what all awaits you on your next holiday!</p>
+  <br>
 
-      <div class="item">
-        <img src="https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" style="width:100%; height:600px;">
-      <div class="carousel-caption">
-      <p>Life is travelling.</hp>
-      <h3>Adventure is out there!</h3>
-      </div>
-      </div>
+  <div class="container">
+  <div class="row">
     
-      <div class="item">
-        <img src="https://images.pexels.com/photos/164287/pexels-photo-164287.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" style="width:100%; height:600px;">
+    <div class="col d-flex justify-content-center">
+      <div data-aos="fade-up d-flex justify-content-center">
+      <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
+        <a href="Ass.html">
+        <img src="http://www.pentagonengineers.com/wp-content/uploads/2019/10/assam.jpg" class="card-img-top" width="100%" height="200px">
+        <div class="card-body">
+          <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Assam</p>
+        </a>
+        </div>
       </div>
     </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
   </div>
-<hr>
-<!-- Destinations -->
-<div id="DESTINATION">
-<div data-aos="fade-up" data-aos-id="super-duper">
-<h1 align="center">Destinations</h1>
-
-	<marquee behavior="alternate" direction="left" scrollamount="20" style="color:blue"><h2>Your Journey Starts Here!</h2></marquee>
-	<p id="para" align="center">Planning a surprise vacation for your family any time soon? Well, these best family holiday destinations in India should surely be on top of your list! Do not believe us? Scroll down to know what all awaits you on your next holiday!</p>
-	
-<br>
-
-<div class="container">
-<div class="row">
-	<div data-aos="fade-up">
-	<div class="col-md-3">
-	<div class="gallery">
-		<div class="box">
-		<a href="./State1/Ass.html">
-		<img src="http://www.pentagonengineers.com/wp-content/uploads/2019/10/assam.jpg">
-		<div class="desc">Assam</div>
-	</a>
+  
+    <div class="col d-flex justify-content-center">
+      <div data-aos="fade-up d-flex justify-content-center">
+      <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
+        <a href="AP.html">
+        <img src="https://www.traveldealsfinder.com/wp-content/uploads/AP-Tourism-Charminar.jpg" class="card-img-top" width="100%" height="200px">
+        <div class="card-body">
+          <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Andhra Pradesh</p>
+        </a>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
-</div>
-</div>
+ 
+    <div class="col d-flex justify-content-center">
+       <div data-aos="fade-up d-flex justify-content-center">
+      <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
+        <a href="ArP.html">
+        <img src="https://images.pexels.com/photos/8020071/pexels-photo-8020071.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" width="100%" height="200px">
+        <div class="card-body">
+          <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Arunachal Pradesh</p>
+        </a>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="col d-flex justify-content-center">
+      <div data-aos="fade-up d-flex justify-content-center">
+      <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
+        <a href="Bi.html">
+        <img src="https://www.tripsavvy.com/thmb/psufon4_2Y64Kt-RK3rYvrzbKfg=/4193x2359/smart/filters:no_upscale()/mahabodhi-temple-complex-98259687-5b579ce946e0fb00715444e6.jpg" class="card-img-top" width="100%" height="200px">
+        <div class="card-body">
+          <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Bihar</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="col d-flex justify-content-center">
+      <div data-aos="fade-up d-flex justify-content-center">
+      <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
+        <a href="Ch.html">
+        <img src="https://www.onhisowntrip.com/wp-content/uploads/2020/04/Chiktrakoot.png" width="100%" height="200px">
+        <div class="card-body">
+          <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Chhatisgarh</p>
+        </a>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="col d-flex justify-content-center">
+      <div data-aos="fade-up d-flex justify-content-center">
+      <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
+        <a href="De.html">
+        <img src="https://images.pexels.com/photos/789750/pexels-photo-789750.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" width="100%" height="200px">
+        <div class="card-body">
+          <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Delhi</p>
+        </a>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="col d-flex justify-content-center">
+      <div data-aos="fade-up d-flex justify-content-center">
+      <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
+        <a href="Goa.html">
+        <img src="http://pinkstravels.com/images/blog/goabanner.jpg" class="card-img-top" width="100%" height="200px">
+        <div class="card-body">
+          <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Goa</p>
+        </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col d-flex justify-content-center">
+      <div data-aos="fade-up d-flex justify-content-center">
+      <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
+        <a href="Guj.html">
+        <img src="https://www.deccanherald.com/sites/dh/files/article_images/2020/01/15/file72kca7re047ujfvc2do-1579056602.jpg" class="card-img-top" width="100%" height="200px">
+        <div class="card-body">
+          <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Gujarat</p>
+        </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col d-flex justify-content-center">
+      <div data-aos="fade-up d-flex justify-content-center">
+      <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
+        <a href="Har.html">
+        <img src="https://prod-weddingz-partner-images.s3.amazonaws.com/photologue/images/7-indian-destination-wedding-locations-under-25-lakhs-to-host-your-wedding-at.jpg" class="card-img-top" width="100%" height="200px">
+        <div class="card-body">
+          <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Haryana</p>
+        </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col d-flex justify-content-center">
+      <div data-aos="fade-up d-flex justify-content-center">
+      <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
+        <a href="Hp.html">
+        <img src="https://static.toiimg.com/photo/63264324/.jpg" class="card-img-top" width="100%" height="200px">
+        <div class="card-body">
+          <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Himachal Pradesh</p>
+        </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col d-flex justify-content-center">
+      <div data-aos="fade-up d-flex justify-content-center">
+      <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
+        <a href="J&K.html">
+        <img src="https://images.pexels.com/photos/9106697/pexels-photo-9106697.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" width="100%" height="200px">
+        <div class="card-body">
+          <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Jammu and Kashmir</p>
+        </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col d-flex justify-content-center">
+      <div data-aos="fade-up d-flex justify-content-center">
+      <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
+        <a href="JH.html">
+        <img src="https://s3.india.com/travel/wp-content/uploads/2015/11/jharkhand.jpg" class="card-img-top" width="100%" height="200px">
+        <div class="card-body">
+          <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Jharkhand</p>
+        </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col d-flex justify-content-center">
+      <div data-aos="fade-up d-flex justify-content-center">
+      <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
+        <a href="KARN.html">
+        <img src="https://blog.thomascook.in/wp-content/uploads/2017/09/Untitled-design-20-min.jpg" class="card-img-top" width="100%" height="200px">
+        <div class="card-body">
+          <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Karnataka</p>
+        </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col d-flex justify-content-center">
+      <div data-aos="fade-up d-flex justify-content-center">
+      <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
+        <a href="Ker.html">
+        <img src="https://images.pexels.com/photos/6194591/pexels-photo-6194591.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="card-img-top" width="100%" height="200px">
+        <div class="card-body">
+          <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Kerala</p>
+        </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col d-flex justify-content-center">
+      <div data-aos="fade-up d-flex justify-content-center">
+      <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
+        <a href="MP.html">
+        <img src="https://www.tusktravel.com/blog/wp-content/uploads/2020/08/Gwalior.jpg" class="card-img-top" width="100%" height="200px">
+        <div class="card-body">
+          <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Madhya Pradesh</p>
+        </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col d-flex justify-content-center">
+      <div data-aos="fade-up d-flex justify-content-center">
+      <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
+        <a href="Maharashtra.html">
+        <img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/05/Gateway-Of-India_600-1-1280x720.jpg" class="card-img-top" width="100%" height="200px">
+        <div class="card-body">
+          <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Maharashtra</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col d-flex justify-content-center">
+      <div data-aos="fade-up d-flex justify-content-center">
+      <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
+        <a href="Manipur.html">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-UX5lOaxJ_7sFa6n9B46XifqjNlIWOdmYgSIoczVpbtyqQ6oZMZMaqI1ZRMcQIjfwBTM&usqp=CAU" class="card-img-top" width="100%" height="200px">
+        <div class="card-body">
+          <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Manipur</p>
+        </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col d-flex justify-content-center">
+      <div data-aos="fade-up d-flex justify-content-center">
+      <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
+        <a href="Megha.html">
+        <img src="https://travenjo.com/wp-content/uploads/2019/05/KrangSuri-Falls-Jowai.jpg" class="card-img-top" width="100%" height="200px">
+        <div class="card-body">
+          <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Meghalaya</p>
+        </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col d-flex justify-content-center">
+      <div data-aos="fade-up d-flex justify-content-center">
+      <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
+        <a href="Mizo.html">
+        <img src="https://www.incredibleindia.org/content/dam/incredible-india-v2/images/places/Mizoram/serlui-b-lake.jpg/_jcr_content/renditions/cq5dam.web.512.512.jpeg" class="card-img-top" width="100%" height="200px">
+        <div class="card-body">
+          <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Mizoram</p>
+        </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col d-flex justify-content-center">
+      <div data-aos="fade-up d-flex justify-content-center">
+      <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
+        <a href="Naga.html">
+        <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2020/01/12-places-to-visit-in-nagaland-Cover_16th-Jan.jpg" class="card-img-top" width="100%" height="200px">
+        <div class="card-body">
+          <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Nagaland</p>
+        </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col d-flex justify-content-center">
+      <div data-aos="fade-up d-flex justify-content-center">
+      <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
+        <a href="OR.html">
+        <img src="https://www.india-tours.com/images/states-images/orissa.jpg" width="100%" height="200px">
+        <div class="card-body">
+          <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Orissa</p>
+        </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col d-flex justify-content-center">
+      <div data-aos="fade-up d-flex justify-content-center">
+      <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
+        <a href="PJ.html">
+        <img src="https://k6u8v6y8.stackpathcdn.com/blog/wp-content/uploads/2015/04/golden-temple.jpg" class="card-img-top" width="100%" height="200px">
+        <div class="card-body">
+          <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Punjab</p>
+        </a>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="col d-flex justify-content-center">
+      <div data-aos="fade-up d-flex justify-content-center">
+      <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
+        <a href="RJ.html">
+        <img src="https://takeabreaktours.com/wp-content/uploads/2021/07/rajasthan.jpg" class="card-img-top" width="100%" height="200px">
+        <div class="card-body">
+          <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Rajasthan</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col d-flex justify-content-center">
+      <div data-aos="fade-up d-flex justify-content-center">
+      <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
+        <a href="SK.html">
+        <img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1215/Yak-Tsangmo-Lake.jpg?crop=370:240&downsize=370:240" class="card-img-top" width="100%" height="200px">
+        <div class="card-body">
+          <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Sikkim</p>
+        </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col d-flex justify-content-center">
+      <div data-aos="fade-up d-flex justify-content-center">
+      <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
+        <a href="TN.html">
+        <img src="https://ak.jogurucdn.com/media/image/p25/place-2014-12-19-6-Devikanyakumaritemple8d7337842513180726e05edccbc5986e.jpg" class="card-img-top" width="100%" height="200px">
+        <div class="card-body">
+          <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Tamil Nadu</p>
+        </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col d-flex justify-content-center">
+      <div data-aos="fade-up d-flex justify-content-center">
+      <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
+        <a href="TR.html">
+        <img src="https://www.tourmyindia.com/socialimg/tripura-touris.jpg" class="card-img-top" width="100%" height="200px">
+        <div class="card-body">
+          <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Tripura</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col d-flex justify-content-center">
+      <div data-aos="fade-up d-flex justify-content-center">
+      <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
+        <a href="UK.html">
+        <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2020/01/Kedarnath-in-summer_17th-jan.jpg" class="card-img-top" width="100%" height="200px">
+        <div class="card-body">
+          <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Uttarakhand</p>
+        </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col d-flex justify-content-center">
+      <div data-aos="fade-up d-flex justify-content-center">
+      <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
+        <a href="WB.html">
+        <img src="https://assets.telegraphindia.com/telegraph/05648444-7dc7-4c71-9a25-656e98a6a0a0.jpg" class="card-img-top" width="100%" height="200px">
+        <div class="card-body">
+          <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">West Bengal</p>
+        </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col d-flex justify-content-center">
+      <div data-aos="fade-up d-flex justify-content-center">
+      <div class="card" style="width: 15rem; margin-top:10px; margin-right: 15px;">
+        <a href="UP.html">
+        <img src="https://static.toiimg.com/photo/74304188.cms" class="card-img-top" width="100%" height="200px">
+        <div class="card-body">
+          <p class="card-text" style="font-size:22px; text-align: center; font-weight: bold;">Uttar Pradesh</p>
+        </a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <hr>
+  <!-- What we do -->
+<div id="ABOUT US">
 <div data-aos="fade-up">
-	<div class="col-md-3">
-	<div class="gallery">
-		<div class="box">
-		<a href="./State1/AP.html">
-		<img src="https://www.traveldealsfinder.com/wp-content/uploads/AP-Tourism-Charminar.jpg">
-		<div class="desc">Andhra Pradesh</div>
-	</a>
-	</div>
-</div>
-</div>
-</div>
-<div data-aos="fade-up">
-	<div class="col-md-3">
-	<div class="gallery">
-		<div class="box">
-		<a href="./State1/ArP.html">
-		<img src="https://images.pexels.com/photos/8020071/pexels-photo-8020071.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
-		<div class="desc">Arunachal Pradesh</div>
-	</a>
-	</div>
-</div>
-</div>
-</div>
-<div data-aos="fade-up">
-	<div class="col-md-3">
-	<div class="gallery">
-		<div class="box">
-		<a href="./State1/Bi.html">
-		<img src="https://www.tripsavvy.com/thmb/psufon4_2Y64Kt-RK3rYvrzbKfg=/4193x2359/smart/filters:no_upscale()/mahabodhi-temple-complex-98259687-5b579ce946e0fb00715444e6.jpg">
-		<div class="desc">Bihar</div>
-	</a>
-	</div>
-</div>
-</div>
-</div>
-</div>
-
-
-<div class="row">
-	<div data-aos="fade-up">
-	<div class="col-md-3">
-	<div class="gallery">
-		<div class="box">
-		<a href="./State1/Ch.html">
-		<img src="https://www.onhisowntrip.com/wp-content/uploads/2020/04/Chiktrakoot.png">
-		<div class="desc">Chhatisgarh</div>
-	</a>
-	</div>
-</div>
-</div>
-</div>
-
-<div data-aos="fade-up">
-	<div class="col-md-3 ">
-	<div class="gallery">
-		<div class="box">
-		<a href="./State1/De.html">
-		<img src="https://images.pexels.com/photos/789750/pexels-photo-789750.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
-		<div class="desc">Delhi</div>
-	</a>
-	</div>
-</div>
-</div>
-</div>
-
-<div data-aos="fade-up">
-	<div class="col-md-3">
-	<div class="gallery">
-		<div class="box">
-		<a href="./State1/Goa.html">
-		<img src="http://pinkstravels.com/images/blog/goabanner.jpg">
-		<div class="desc">Goa</div>
-	</a>
-	</div>
-</div>
-</div>
-</div>
-
-<div data-aos="fade-up">
-	<div class="col-md-3">
-	<div class="gallery">
-		<div class="box">
-		<a href="./State1/Guj.html">
-		<img src="https://www.deccanherald.com/sites/dh/files/article_images/2020/01/15/file72kca7re047ujfvc2do-1579056602.jpg">
-		<div class="desc">Gujarat</div>
-	</a>
-	</div>
-</div>
-</div>
-</div>
-</div>
-
-
-<div class="row">
-	<div data-aos="fade-up">
-	<div class="col-md-3">
-	<div class="gallery">
-		<div class="box">
-		<a href="./State1/Har.html">
-		<img src="https://prod-weddingz-partner-images.s3.amazonaws.com/photologue/images/7-indian-destination-wedding-locations-under-25-lakhs-to-host-your-wedding-at.jpg">
-		<div class="desc">Haryana</div>
-	</a>
-	</div>
-</div>
-</div>
-</div>
-
-<div data-aos="fade-up">
-	<div class="col-md-3">
-	<div class="gallery">
-		<div class="box">
-		<a href="./State1/Hp.html">
-		<img src="https://static.toiimg.com/photo/63264324/.jpg">
-		<div class="desc">Himachal Pradesh</div>
-	</a>
-	</div>
-</div>
-</div>
-</div>
-
-<div data-aos="fade-up">
-	<div class="col-md-3 ">
-	<div class="gallery">
-		<div class="box">
-		<a href="./State1/J&K.html">
-		<img src="https://images.pexels.com/photos/9106697/pexels-photo-9106697.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
-		<div class="desc">Jammu and Kashmir</div>
-	</a>
-	</div>
-</div>
-</div>
-</div>
-
-<div data-aos="fade-up">
-	<div class="col-md-3">
-	<div class="gallery">
-		<div class="box">
-		<a href="./State1/JH.html">
-		<img src="https://s3.india.com/travel/wp-content/uploads/2015/11/jharkhand.jpg">
-		<div class="desc">Jharkhand</div>
-	</a>
-	</div>
-</div>
-</div>
-</div>
-</div>
-
-
-<div class="row">
-	<div data-aos="fade-up">
-	<div class="col-md-3">
-	<div class="gallery">
-		<div class="box">
-		<a href="./State1/KARN.html">
-		<img src="https://blog.thomascook.in/wp-content/uploads/2017/09/Untitled-design-20-min.jpg">
-		<div class="desc">Karnataka</div>
-	</a>
-	</div>
-</div>
-</div>
-</div>
-
-<div data-aos="fade-up">
-	<div class="col-md-3">
-	<div class="gallery">
-		<div class="box">
-		<a href="./State1/Ker.html">
-		<img src="https://images.pexels.com/photos/6194591/pexels-photo-6194591.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
-		<div class="desc">Kerala</div>
-	</a>
-	</div>
-</div>
-</div>
-</div>
-
-<div data-aos="fade-up">
-	<div class="col-md-3 ">
-	<div class="gallery">
-		<div class="box">
-		<a href="./State1/MP.html">
-		<img src="https://www.tusktravel.com/blog/wp-content/uploads/2020/08/Gwalior.jpg">
-		<div class="desc">Madhya pradesh</div>
-	</a>
-	</div>
-</div>
-</div>
-</div>
-
-<div data-aos="fade-up">
-	<div class="col-md-3 ">
-	<div class="gallery">
-		<div class="box">
-		<a href="./State1/Maharashtra.html">
-		<img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/05/Gateway-Of-India_600-1-1280x720.jpg">
-		<div class="desc">Maharashtra</div>
-	</a>
-	</div>
-</div>
-</div>
-</div>
-</div>
-
-
-<div class="row">
-	<div data-aos="fade-up">
-	<div class="col-md-3 ">
-	<div class="gallery">
-		<div class="box">
-		<a href="./State1/Manipur.html">
-		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-UX5lOaxJ_7sFa6n9B46XifqjNlIWOdmYgSIoczVpbtyqQ6oZMZMaqI1ZRMcQIjfwBTM&usqp=CAU">
-		<div class="desc">Manipur</div>
-	</a>
-	</div>
-</div>
-</div>
-</div>
-
-<div data-aos="fade-up">
-	<div class="col-md-3 ">
-	<div class="gallery">
-		<div class="box">
-		<a href="./State1/Megha.html">
-		<img src="https://travenjo.com/wp-content/uploads/2019/05/KrangSuri-Falls-Jowai.jpg">
-		<div class="desc">Meghalaya</div>
-	</a>
-	</div>
-</div>
-</div>
-</div>
-
-<div data-aos="fade-up">
-	<div class="col-md-3 animated fadeInUp">
-	<div class="gallery">
-		<div class="box">
-		<a href="./State1/Mizo.html">
-		<img src="https://www.incredibleindia.org/content/dam/incredible-india-v2/images/places/Mizoram/serlui-b-lake.jpg/_jcr_content/renditions/cq5dam.web.512.512.jpeg">
-		<div class="desc">Mizoram</div>
-	</a>
-	</div>
-</div>
-</div>
-</div>
-
-<div data-aos="fade-up">
-	<div class="col-md-3 animated fadeInUp">
-	<div class="gallery">
-		<div class="box">
-		<a href="./State1/Nagal.html">
-		<img src="https://img.traveltriangle.com/blog/wp-content/uploads/2020/01/12-places-to-visit-in-nagaland-Cover_16th-Jan.jpg">
-		<div class="desc">Nagaland</div>
-	</a>
-	</div>
-</div>
-</div>
-</div>
-</div>
-
-<div class="row">
-	<div data-aos="fade-up">
-	<div class="col-md-3 ">
-	<div class="gallery">
-		<div class="box">
-		<a href="./State1/OR.html">
-		<img src="https://www.india-tours.com/images/states-images/orissa.jpg">
-		<div class="desc">Orissa</div>
-	</a>
-	</div>
-</div>
-</div>
-</div>
-
-<div data-aos="fade-up">
-	<div class="col-md-3">
-	<div class="gallery">
-		<div class="box">
-		<a href="./State1/PJ.html">
-		<img src="https://k6u8v6y8.stackpathcdn.com/blog/wp-content/uploads/2015/04/golden-temple.jpg">
-		<div class="desc">Punjab</div>
-	</a>
-	</div>
-</div>
-</div>
-</div>
-
-<div data-aos="fade-up">
-	<div class="col-md-3 ">
-	<div class="gallery">
-		<div class="box">
-		<a href="./State1/RJ.html">
-		<img src="https://takeabreaktours.com/wp-content/uploads/2021/07/rajasthan.jpg">
-		<div class="desc">Rajasthan</div>
-	</a>
-	</div>
-</div>
-</div>
-</div>
-
-<div data-aos="fade-up">
-	<div class="col-md-3">
-	<div class="gallery">
-		<div class="box">
-		<a href="./State1/SK.html">
-		<img src="https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/cities/1215/Yak-Tsangmo-Lake.jpg?crop=370:240&downsize=370:240">
-		<div class="desc">Sikkim</div>
-	</a>
-	</div>
-</div>
-</div>
-</div>
-</div>
-	
-<div class="row">
-	<div data-aos="fade-up">
-	<div class="col-md-3 ">
-	<div class="gallery">
-		<div class="box">
-		<a href="./State1/TN.html">
-		<img src="https://ak.jogurucdn.com/media/image/p25/place-2014-12-19-6-Devikanyakumaritemple8d7337842513180726e05edccbc5986e.jpg">
-		<div class="desc">Tamil Nadu</div>
-	</a>
-	</div>
-</div>
-</div>
-</div>
-
-<div data-aos="fade-up">
-	<div class="col-md-3 ">
-	<div class="gallery">
-		<div class="box">
-		<a href="./State1/TR.html">
-		<img src="https://www.tourmyindia.com/socialimg/tripura-touris.jpg">
-		<div class="desc">Tirupura</div>
-	</a>
-	</div>
-</div>
-</div>
-</div>
-
-<div data-aos="fade-up">
-	<div class="col-md-3 ">
-	<div class="gallery">
-		<div class="box">
-		<a href="./State1/UK.html">
-		<img src="https://img.traveltriangle.com/blog/wp-content/uploads/2020/01/Kedarnath-in-summer_17th-jan.jpg">
-		<div class="desc">Uttrakhand</div>
-	</a>
-	</div>
-</div>
-</div>
-</div>
-
-<div data-aos="fade-up">
-	<div class="col-md-3 ">
-	<div class="gallery">
-		<div class="box">
-		<a href="./State1/WB.html">
-		<img src="https://assets.telegraphindia.com/telegraph/05648444-7dc7-4c71-9a25-656e98a6a0a0.jpg">
-		<div class="desc">West bengal</div>
-	</a>
-	</div>
-</div>
-</div>
-</div>
-</div>
-
-
-	<div class="row">
-		<div data-aos="fade-up">
-	<div class="col-md-3 ">
-	<div class="gallery">
-		<div class="box">
-		<a href="./State1/UP.html">
-		<img src="https://static.toiimg.com/photo/74304188.cms">
-		<div class="desc">Uttar Pradesh</div>
-	</a>
-	</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<hr>
-
-<!-- What we do -->
-<div id="WHAT WE DO">
-<div data-aos="fade-up">
-<h1 id="title">What We Do</h1>
+<h1 id="title">ABOUT US</h1>
 <img src="https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" width=100% height=500px id="img">
 </div>
   <section id="about">
-  	<div class="container" id="cont">
-  		<div class="row">
-  			<div data-aos="fade-up">
-  			<div class="col-md-6">
-  				<h2>Our Story</h2>
-  				<div class="about-content">
-  					Website was founded in 2021 by our team who wanted to show people the side of a country that not everyone gets to see.  Our team was lucky enough to travel the country with local friends who took us to places and shared things we would never have experienced this. We felt there was a space to create these unique travel experiences with a personal, human touch for others  Though we started out just selling trips to Others now sells trips around the world; and despite our growth,  Personal is how we began, and that is how we continue to be. 
-  				</div>
-  			</div>
-  		</div>
-  			<br/>
-  			<div data-aos="fade-up">
-  			<div class="col-md-6">
-  				<img src="https://images.pexels.com/photos/1051075/pexels-photo-1051075.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" width="100%" height="280" id="img">
-  			</div>
-  		</div>
-  		</div>
-  		<br>
-  		<br>
+    <div class="container" id="cont">
+      <div class="row">
+        <div class="col">
+          <div data-aos="fade-up">
+          <h2>Our Story</h2>
+          <div class="about-content">
+            Website was founded in 2021 by our team who wanted to show people the side of a country that not everyone gets to see.  Our team was lucky enough to travel the country with local friends who took us to places and shared things we would never have experienced this. We felt there was a space to create these unique travel experiences with a personal, human touch for others  Though we started out just selling trips to Others now sells trips around the world; and despite our growth,  Personal is how we began, and that is how we continue to be.
+          </div>
+        </div>
+      </div>
+      <br/>
+        <div class="col">
+          <div data-aos="fade-up">
+          <img src="https://images.pexels.com/photos/7150986/pexels-photo-7150986.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="95%" height="500" id="img">
+        </div>
+      </div>
+    </div>
+      <br>
+      <br>
         <div class="row">
-        	<div data-aos="fade-up">
-  			<div class="col-md-6">
-  			  	<img src="https://images.pexels.com/photos/3183613/pexels-photo-3183613.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" width="100%" height="280" id="img">
-  			  			</div>
-  			</div>
-  			<div data-aos="fade-up">
-  			<div class="col-md-6">
-  				<h2>Our Mission</h2>
-  			  				Provide a unique travel experience for everybody in a sustsinable, honest and transperent way.we tend to focus on the customers requirements to come up with effective stratergies for meeting their demands in an efficient manner
-  			</div>
-  		</div>
-  	</div>
+        <div class="col">
+          <div data-aos="fade-up">
+            <img src="https://images.pexels.com/photos/3183613/pexels-photo-3183613.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" width="100%" height="280" id="img">
+        </div>
+      </div>
+        <div class="col">
+          <div data-aos="fade-up">
+          <h2>Our Mission</h2>
+                  Provide a unique travel experience for everybody in a sustsinable, honest and transperent way.we tend to focus on the customers requirements to come up with effective stratergies for meeting their demands in an efficient manner
+        </div>
+      </div>
+    </div>
   </div>
 </section>
+
 <section id="team">
   <div class="container">
-  	<div data-aos="fade-up">
-  		<h1>Meet Our Team</h1>
-  		<div class="col-md-3 profile-pic text-center">
-  			<div class="img-box">
-  				<img src="img1.jpeg" width="200" height="200" id="img">
-  			</div>
-			<div data-aos="fade-up">
-  			<h3>Saniya Shaikh</h3>
-  			<h4>Founder</h4>
-			</div>
-  		</div>
-  		<div class="col-md-3 profile-pic text-center">
-  			<div class="img-box">
-  				<img src="img2.jpeg" width="200" height="200" id="img">
-  			</div>
-			<div data-aos="fade-up">
-  			<h3>Shraddha Lalbegee</h3>
-  			<h4>Founder</h4>
-			</div>
-  		</div>
-  		<div class="col-md-3 profile-pic text-center">
-  			<div class="img-box">
-  				<img src="img3.jpeg" width="200" height="200" id="img">
-  			</div>
-			<div data-aos="fade-up">
-  			<h3>Siddhi Deshmane</h3>
-  			<h4>Founder</h4>
-			</div>
-  		</div>
-  		<div class="col-md-3 profile-pic text-center">
-  			<div class="img-box">
-  				<img src="img4.jpeg" width="200" height="200" id="img">
-  			</div>
-			<div data-aos="fade-up">
-  			<h3>Divya Satav</h3>
-  			<h4>Founder</h4>
-			</div>
-  		</div>
-  	</div>
+  <div class="row">
+    <h1 align="center">Meet Our Team</h1>
+    <div class="col text-center">
+      <img src="img1.jpeg" width="200" height="200" id="img">
+        <div data-aos="fade-up">
+          <br/>
+          <h3>Saniya Shaikh</h3>
+          <h3>Founder</h3>
+        </div>
+      </div>
+    <div class="col text-center">
+      <img src="img2.jpeg" width="200" height="200" id="img">
+        <div data-aos="fade-up">
+          <br/>
+          <h3>Siddhi Deshmane</h3>
+          <h3>Founder</h3>
+        </div>
+      </div>
+    <div class="col text-center">
+      <img src="img3.jpeg" width="200" height="200" id="img">
+        <div data-aos="fade-up">
+          <br/>
+          <h3>Shraddha Lalbegee</h3>
+          <h3>Founder</h3>
+        </div>
+      </div>
+    <div class="col text-center">
+      <img src="img4.jpeg" width="200" height="200" id="img">
+        <div data-aos="fade-up">
+          <br/>
+          <h3>Divya Satav</h3>
+          <h3>Founder</h3>
+        </div>
+      </div>
   </div>
 </section>
 <br>
-<div class="container">
-	<div data-aos="fade-up">
+
+<div class="container d-flex justify-content-center">
+<div data-aos="fade-up">
 <div class="rating">
-	
+ 
 <span class="heading">User Rating</span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
@@ -602,104 +513,152 @@
 <br>
 
 <div id="CONTACT US">
-  <footer id="footer" class="footer-1">
+<footer id="footer" class="footer-1">
 <div class="main-footer widgets-dark typo-light">
 <div class="container">
 <div class="row">
-  <div data-aos="fade-up">
-<div class="col-md-4">
-<div class="widget subscribe no-box">
-<h5 class="widget-title">Address<span></span></h5>
-<p>Tourism Paradise</p>
-<span class="glyphicon glyphicon-map-marker fa-md"></span>
-            <span class="text">Shivajinagar, Pune</span>
-             <div class="phone">
-            <i class="fa fa-phone fa-md"></i>
-            <span class="text">+91-765432100</span>
+<div class="col">
+  <div class="widget subscribe no-box">
+    <h5 class="widget-title">Address<span></span></h5>
+    <p>Tourism Paradise</p>
+      <span class="glyphicon glyphicon-map-marker"></span>
+      <span class="text">Shivajinagar, Pune</span>
+        <div class="phone">
+          <i class="fa fa-phone fa-md"></i>
+          <span class="text">+91-765432100</span>
         </div>
         <div class="email">
-            <i class="fa fa-envelope fa-md"></i>
-            <span class="text">tourismparadise@gmail.com.</span>
+          <i class="fa fa-envelope fa-md"></i>
+          <span class="text">tourismparadise@gmail.com.</span>
         </div>
-         <br>
-        <div class="content">
-        <div class="social">
-           <ul class="list-inline">
-      <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
-      <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
-      <li><a href="#"><i class="fa fa-google-plus fa-2x"></i></a></li>
-      <li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a></li>
+      <br>
+  </div>
+    <ul class="social-list">
+        <li>
+            <div class="maincard">
+                <div class="thecard">
+                    <div class="thefront text-center py-1 facebook">
+                        <div class="social-icon"> <i class="fa fa-facebook fa-2x"></i> </div>
+                    </div>
+                    <div class="theback text-center facebook">
+                        <div class="social-text mt-1"> <small class="font-weight-bold">Facebook</small> </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="maincard">
+                <div class="thecard">
+                    <div class="thefront text-center py-1 instagram">
+                        <div class="social-icon"> <i class="fa fa-instagram fa-2x"></i> </div>
+                    </div>
+                    <div class="theback text-center instagram">
+                        <div class="social-text mt-1"> <small class="font-weight-bold">Instagram</small> </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="maincard">
+                <div class="thecard">
+                    <div class="thefront text-center py-1 youtube">
+                        <div class="social-icon"> <i class="fa fa-youtube fa-2x"></i> </div>
+                    </div>
+                    <div class="theback text-center youtube">
+                        <div class="social-text mt-1"> <small class="font-weight-bold">Youtube</small> </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="maincard">
+                <div class="thecard">
+                    <div class="thefront text-center py-1 whatsapp">
+                        <div class="social-icon"> <i class="fa fa-whatsapp fa-2x"></i> </div>
+                    </div>
+                    <div class="theback text-center whatsapp">
+                        <div class="social-text mt-1"> <small class="font-weight-bold">Whatsapp</small> </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="maincard">
+                <div class="thecard">
+                    <div class="thefront text-center py-1 pinterest">
+                        <div class="social-icon"> <i class="fa fa-pinterest fa-2x"></i> </div>
+                    </div>
+                    <div class="theback text-center pinterest">
+                        <div class="social-text mt-1"> <small class="font-weight-bold">Pinterest</small> </div>
+                    </div>
+                </div>
+            </div>
+        </li>
     </ul>
+</div>
+
+<div class="col">
+  <div class="widget no-box">
+    <h5 class="widget-title">Quick Links<span></span></h5>
+  <ul class="thumbnail-widget">
+    <li>
+      <div class="thumb-content"><a href="#.">ABOUT US</a></div>
+    </li>
+    <li>
+      <div class="thumb-content"><a href="#.">TERMS AND SERVICE</a></div>
+    </li>
+    <li>
+      <div class="thumb-content"><a href="#.">PRIVACY</a></div>
+    </li>
+    <li>
+      <div class="thumb-content"><a href="#.">CONTACT US</a></div>
+    </li>
+  </ul>
+</div>
+</div>
+
+<div class="col">
+<div class="widget no-box">
+  <h5 class="widget-title">Get in touch<span></span></h5>
+  <form>            
+  <div class="container-fluid">
+   
+    <label for="name">Your name :</label>
+    <input type="text" class="form-control" id="name" placeholder="Name" required>
+    <label for="email">Your email :</label>
+    <input type="email" class="form-control" id="email" placeholder="Email" required>
+    <label for="sub">Subject :</label>
+    <input type="text" class="form-control" id="sub" placeholder="Subject">
+    <label for="msg">Your Message :</label>
+    <input type="text" class="form-control" id="msg" placeholder="Your Message" required>
+
+    <br>
+    <button type="submit" class="btn btn-success" style="background-color:#ff8d1e;">Submit</button>
+  <br>
+  </form>
   </div>
 </div>
 </div>
+</div>          
 </div>
-
-
-<div class="col-md-4">
-<div class="widget no-box">
-<h5 class="widget-title">Quick Links<span></span></h5>
-<ul class="thumbnail-widget">
-<li>
-<div class="thumb-content"><a href="#.">WHAT WE DO</a></div> 
-</li>
-<li>
-<div class="thumb-content"><a href="#.">TERMS AND SERVICE</a></div> 
-</li>
-<li>
-<div class="thumb-content"><a href="#.">PRIVACY</a></div> 
-</li>
-<li>
-<div class="thumb-content"><a href="#.">CONTACT US</a></div> 
-</li>
-
-</ul>
-</div>
-</div>
-
-<div class="col-md-4">
-<div class="widget no-box">
-<h5 class="widget-title">Get in touch<span></span></h5>
- 
-  <form>          	
-	<div class="container-fluid">
-	  
-		<label for="name">Your name :</label>
-		<input type="text" class="form-control" id="name" placeholder="Name" required>
-		<label for="email">Your email :</label>
-		<input type="email" class="form-control" id="email" placeholder="Email" required>
-		<label for="sub">Subject :</label>
-		<input type="text" class="form-control" id="sub" placeholder="Subject">
-		<label for="msg">Your Message :</label>
-		<input type="text" class="form-control" id="msg" placeholder="Your Message" required>
-
-		<br>
-		<button type="submit" class="btn btn-success" style="background-color:#ff8d1e;">Submit</button>
-	<br>
-	</div> 
-	</div>         	
-</form>
 </footer>
 </div>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
-<script>
-function myFunction() {
-  var x = document.getElementById("navbar");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+  function myFunction() {
+    var x = document.getElementById("navbar");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
 }
 </script>
-
-</body>
+  </body>
 </html>
