@@ -215,7 +215,6 @@ section .btnone{
 .social-text small {
   font-size: 13px
 }
-
 @media(min-width: 992px) {
 	#para{
 		font-size: 25px;
