@@ -56,6 +56,7 @@ margin: 30px 0 20px 0;
 font-size: 55px;
 font-weight: 700;
 text-shadow: 2px 1px 5px black;
+color: #00b894;
 
 }
 
@@ -88,7 +89,7 @@ color: #fff;
 .change_content:after{
 content: '';
 animation: changetext 10s infinite linear;
-color:  #00b894;
+color:  #fff;
 }
 
 @keyframes changetext{
