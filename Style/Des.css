@@ -180,7 +180,7 @@ section .btnone{
 }
 @keyframes changetext{
 0%{content:"Delhi";}
-10%{content:"Mumbai";}
+10%{content:"Goa";}
 20%{content:"Rajasthan";}
 30%{content:"Gujarat";}
 40%{content:"Maharashtra";}
