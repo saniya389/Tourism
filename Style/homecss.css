@@ -9,8 +9,8 @@ header{
   background-image:url('https://images.pexels.com/photos/247600/pexels-photo-247600.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   background-repeat: no-repeat;
   background-size: cover;
- }
- nav .topnav .icon {
+}
+nav .topnav .icon {
   display: none;
 }
 nav{
@@ -39,6 +39,55 @@ nav .topnav a{
 	color: white;
 	font-weight: bold;
 	font-size: 17px;
+}
+main{
+	width: 100%;
+	height: 85vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: white;
+}
+section h5{
+	font-size: 35px;
+	font-weight: 200;
+	letter-spacing: 3px;
+	text-shadow: 1px 1px 2px black;
+}
+section h4{
+	margin: 30px 0 20px 0;
+	font-size: 55px;
+	font-weight: 700;
+	text-shadow: 2px 1px 5px black;
+}
+section p{
+	font-size: 25px;
+	word-spacing: 2px;
+	margin-bottom: 25px;
+	text-shadow: 1px 1px 1px black;
+}
+section a{
+	padding: 12px,30px;
+	border-radius: 4px;
+	outline: none;
+	font-size: 20px;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+.btnone:hover{
+	background: #00b894;
+	color: #fff;
+}
+section .btnone{
+	background: #00b894;
+	color: #fff;
+}
+.change_content:after{
+	content: '';
+	animation: changetext 10s infinite linear;
+	color:  #00b894;
 }
 .container-fluid{	
   background-color: #1a2421;
@@ -74,48 +123,6 @@ nav .topnav a{
 	font-weight: bold;
 	display: flex;
 	background: #fff;
-}
-section h5{
-	font-size: 35px;
-	font-weight: 200;
-	letter-spacing: 3px;
-	text-shadow: 1px 1px 2px black;
-	color: #00b894;
-}
-section h4{
-	margin: 30px 0 20px 0;
-	font-size: 55px;
-	font-weight: 700;
-	text-shadow: 2px 1px 5px black;
-	color: #00b894;
-}
-section p{
-	font-size: 25px;
-	word-spacing: 2px;
-	margin-bottom: 25px;
-	text-shadow: 1px 1px 1px black;
-}
-section a{
-	padding: 12px,30px;
-	border-radius: 4px;
-	outline: none;
-	font-size: 20px;
-	font-weight: 500;
-	text-decoration: none;
-	letter-spacing: 1px;
-}
-.btnone:hover{
-	background: #00b894;
-	color: #fff;
-}
-section .btnone{
-	background: #00b894;
-	color: #fff;
-}
-.change_content:after{
-	content: '';
-	animation: changetext 10s infinite linear;
-	color:  #fff;
 }
 @keyframes changetext{
 0%{content:"Delhi";}
