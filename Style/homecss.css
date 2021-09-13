@@ -60,8 +60,8 @@ section h4{
 	margin: 30px 0 20px 0;
 	font-size: 55px;
 	font-weight: 700;
-	text-shadow: 2px 1px 5px  #0000cd;
-	color:#fff;
+	text-shadow: 2px 1px 5px #fff;
+	color:#00008b;
 }
 section p{
 	font-size: 25px;
@@ -89,7 +89,7 @@ section .btnone{
 .change_content:after{
 	content: '';
 	animation: changetext 10s infinite linear;
-	color:  #00b894;
+	color:  #fff;
 }
 .container-fluid{	
   background-color: #1a2421;
@@ -105,13 +105,13 @@ section .btnone{
 	text-shadow: 2px 1px 5px #00b894;
 	font-size: 27px;
 	font-weight: bold;
-  font-style: italic;
-  font-family: Times new roman;
+        font-style: italic;
+  	font-family: Times new roman;
 }
 .navbar-nav{
 	margin-left: 150px;
-  width: 100%;
-  color: #fff;
+  	width: 100%;
+  	color: #fff;
 }
 .container-fluid .navbar-nav .nav-item{
 	width: 40%;
