@@ -10,15 +10,42 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
  }
-
- .container-fluid{
-	
-   background-color: #1a2421;
-   color: white;
-   font-family: Times new roman;
-   font-weight: bold;
-   font-size: 18px;
-
+ nav .topnav .icon {
+  display: none;
+}
+nav{
+	width: 100%;
+  height: 15vh;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .logo1{
+	width: 25%;
+  text-align: center;
+}
+nav .logo1 h5{
+	font-size: 25px;
+}
+nav .topnav{
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+}
+nav .topnav a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 17px;
+}
+.container-fluid{	
+  background-color: #1a2421;
+  color: white;
+  font-family: Times new roman;
+  font-weight: bold;
+  font-size: 18px;
 }
 .container-fluid .navbar-brand{
 	font-size: 20px;
@@ -29,14 +56,12 @@ header{
 	font-weight: bold;
   font-style: italic;
   font-family: Times new roman;
-
 }
 .navbar-nav{
-	  margin-left: 150px;
-    width: 100%;
-    color: #fff;
+	margin-left: 150px;
+  width: 100%;
+  color: #fff;
 }
-
 .container-fluid .navbar-nav .nav-item{
 	width: 40%;
 	display: flex;
@@ -50,58 +75,51 @@ header{
 	display: flex;
 	background: #fff;
 }
-
 section h5{
-font-size: 35px;
-font-weight: 200;
-letter-spacing: 3px;
-text-shadow: 1px 1px 2px black;
-color: #00b894;
+	font-size: 35px;
+	font-weight: 200;
+	letter-spacing: 3px;
+	text-shadow: 1px 1px 2px black;
+	color: #00b894;
 }
 section h4{
-margin: 30px 0 20px 0;
-font-size: 55px;
-font-weight: 700;
-text-shadow: 2px 1px 5px black;
-color: #00b894;
-
+	margin: 30px 0 20px 0;
+	font-size: 55px;
+	font-weight: 700;
+	text-shadow: 2px 1px 5px black;
+	color: #00b894;
 }
-
 section p{
-font-size: 25px;
-word-spacing: 2px;
-margin-bottom: 25px;
-text-shadow: 1px 1px 1px black;
+	font-size: 25px;
+	word-spacing: 2px;
+	margin-bottom: 25px;
+	text-shadow: 1px 1px 1px black;
 }
-
 section a{
-padding: 12px,30px;
-border-radius: 4px;
-outline: none;
-font-size: 20px;
-font-weight: 500;
-text-decoration: none;
-letter-spacing: 1px;
+	padding: 12px,30px;
+	border-radius: 4px;
+	outline: none;
+	font-size: 20px;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1px;
 }
 .btnone:hover{
-background: #00b894;
-color: #fff;
+	background: #00b894;
+	color: #fff;
 }
-
 section .btnone{
-background: #00b894;
-color: #fff;
+	background: #00b894;
+	color: #fff;
 }
-
 .change_content:after{
-content: '';
-animation: changetext 10s infinite linear;
-color:  #fff;
+	content: '';
+	animation: changetext 10s infinite linear;
+	color:  #fff;
 }
-
 @keyframes changetext{
 0%{content:"Delhi";}
-10%{content:"Mumbai";}
+10%{content:"Goa";}
 20%{content:"Rajasthan";}
 30%{content:"Gujarat";}
 40%{content:"Maharashtra";}
@@ -109,4 +127,3 @@ color:  #fff;
 60%{content:"Assam";}
 70%{content:"Bihar";}
 }
-
