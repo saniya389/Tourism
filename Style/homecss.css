@@ -53,13 +53,15 @@ section h5{
 	font-size: 35px;
 	font-weight: 200;
 	letter-spacing: 3px;
-	text-shadow: 1px 1px 2px black;
+	text-shadow: 1px 1px 2px darkorange;
+	color: #ffa500;
 }
 section h4{
 	margin: 30px 0 20px 0;
 	font-size: 55px;
 	font-weight: 700;
-	text-shadow: 2px 1px 5px black;
+	text-shadow: 2px 1px 5px  #0000cd;
+	color:#fff;
 }
 section p{
 	font-size: 25px;
@@ -81,7 +83,7 @@ section a{
 	color: #fff;
 }
 section .btnone{
-	background: #00b894;
+	background:#138808;
 	color: #fff;
 }
 .change_content:after{
