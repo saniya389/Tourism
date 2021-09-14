@@ -89,8 +89,8 @@ section .btnone{
 .change_content:after{
 	content: '';
 	animation: changetext 10s infinite linear;
-	text-shadow: 2px 1px 5px #;
-	color:  #00008b;
+	text-shadow: 2px 1px 5px #00008b;
+	color:  #fff;
 }
 .container-fluid{	
   background-color: #1a2421;
