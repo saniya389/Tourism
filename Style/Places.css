@@ -16,7 +16,7 @@
 	text-align: center;
 	font-family: Times New Roman;
 	font-weight: bold;
-  font-size: 30px;
+  font-size: 35px;
   margin-top: 20px;
 }
 
@@ -28,7 +28,7 @@
   font-size: 25px;
 }
 #slogan{
-  font-size: 30px;
+  font-size: 35px;
 }
 }
 
@@ -40,52 +40,52 @@
   font-size: 23px;
 }
 #slogan{
-  font-size: 27px;
+  font-size: 32px;
 }
 }
 
 @media(min-width: 575px) and (max-width: 767px){
 #names{
-  font-size: 60px;
+  font-size: 58px;
 }
 #info{
   font-size: 20px;
 }
 #slogan{
-  font-size: 25px;
+  font-size: 30px;
 }
 }
 
 @media(min-width: 480px) and (max-width: 574px){
 #names{
-  font-size: 56px;
+  font-size: 54px;
 }
 #info{
   font-size: 20px;
 }
 #slogan{
-  font-size: 25px;
+  font-size: 28px;
 }
 }
 
 @media(min-width: 320px) and (max-width: 479px){
 #names{
-  font-size: 53px;
+  font-size: 50px;
 }
 #info{
   font-size: 17px;
 }
 #slogan{
-  font-size: 23px;
+  font-size: 27px;
 }
 }
 
 @media(max-width: 319px){
 #names{
-  font-size: 50px;
+  font-size: 47px;
 }
 #info{
-  font-size: 17px;
+  font-size: 26px;
 }
 #slogan{
   font-size: 23px;
