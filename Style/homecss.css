@@ -10,36 +10,7 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
 }
-nav .topnav .icon {
-  display: none;
-}
-nav{
-	width: 100%;
-  height: 15vh;
-  background: rgba(0, 0, 0, 0.7);
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-nav .logo1{
-	width: 25%;
-  text-align: center;
-}
-nav .logo1 h5{
-	font-size: 25px;
-}
-nav .topnav{
-	width: 40%;
-	display: flex;
-	justify-content: space-around;
-}
-nav .topnav a{
-	text-decoration: none;
-	color: white;
-	font-weight: bold;
-	font-size: 17px;
-}
+
 main{
 	width: 100%;
 	height: 85vh;
@@ -93,11 +64,11 @@ section .btnone{
 	color:  #fff;
 }
 .container-fluid{	
-  background-color: #1a2421;
-  color: white;
-  font-family: Times new roman;
-  font-weight: bold;
-  font-size: 18px;
+	  background-color: #1a2421;
+	  color: white;
+	  font-family: Times new roman;
+	  font-weight: bold;
+	  font-size: 18px;
 }
 .container-fluid .navbar-brand{
 	font-size: 20px;
@@ -106,13 +77,13 @@ section .btnone{
 	text-shadow: 2px 1px 5px #00b894;
 	font-size: 27px;
 	font-weight: bold;
-  font-style: italic;
-  font-family: Times new roman;
+  	font-style: italic;
+  	font-family: Times new roman;
 }
 .navbar-nav{
 	margin-left: 150px;
-  width: 100%;
-  color: #fff;
+ 	width: 100%;
+  	color: #fff;
 }
 .container-fluid .navbar-nav .nav-item{
 	width: 40%;
