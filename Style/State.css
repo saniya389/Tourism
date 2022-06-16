@@ -90,13 +90,4 @@ p{
 }
 }
 
-.Mapbox{
-  position: relative;
-  width: 800px;
-  height: 400px;
-  background: #fff;
-}
-.Mapbox iframe{
-  width: 158%;
-  height: 100%;
-}
+
