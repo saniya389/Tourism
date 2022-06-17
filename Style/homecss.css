@@ -19,7 +19,7 @@ nav{
   justify-content: space-between;
   align-items: center;
 }
-main{
+.home_css main{
 	width: 100%;
 	height: 85vh;
 	display: flex;
