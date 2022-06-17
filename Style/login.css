@@ -1,0 +1,37 @@
+.nav-tabs {
+    margin-bottom: 10px;
+}
+.sign-with {
+    margin-top: 10px;
+    padding: 20px;
+}
+div#OR {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #C2C2C2;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    font-size: 12px;
+    float: right;
+    position: absolute;
+    right: -16px;
+    top: 40%;
+    z-index: 1;
+    background: #DFDFDF;
+}
+.modal-content{
+    margin-top: 50px;
+}
+.country{
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.navtab a{
+   font-weight: bold;
+    text-decoration-color: black;
+}
+submit{
+    padding-right: 10px;
+}
